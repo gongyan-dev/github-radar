@@ -1,1 +1,194 @@
-[]
+[
+  {
+    "date": "2026-11-16",
+    "projects": [
+      {
+        "name": "meta/astryx",
+        "url": "https://github.com/meta/astryx",
+        "description": "An open source design system that's fully customizable and agent ready",
+        "language": "TypeScript",
+        "stars": 29145,
+        "created": "2026-01-09T16:20:32Z",
+        "topics": [],
+        "updated": "2026-11-16T07:58:25Z",
+        "license": "MIT",
+        "weekly_stars": 13501
+      },
+      {
+        "name": "sherlock-project/sherlock",
+        "url": "https://github.com/sherlock-project/sherlock",
+        "description": "Hunt down social media accounts by username across social networks",
+        "language": "Python",
+        "stars": 112732,
+        "created": "2018-12-24T14:30:48Z",
+        "topics": [
+          "cli",
+          "cti",
+          "cybersecurity",
+          "forensics",
+          "hacktoberfest",
+          "information-gathering",
+          "infosec",
+          "linux",
+          "osint",
+          "pentesting",
+          "python",
+          "python3",
+          "reconnaissance",
+          "redteam",
+          "sherlock",
+          "tools"
+        ],
+        "updated": "2026-11-16T05:15:23Z",
+        "license": "MIT",
+        "weekly_stars": 10412
+      },
+      {
+        "name": "anthropics/skills",
+        "url": "https://github.com/anthropics/skills",
+        "description": "Public repository for Agent Skills",
+        "language": "Python",
+        "stars": 195540,
+        "created": "2025-09-22T15:53:31Z",
+        "topics": [
+          "agent-skills"
+        ],
+        "updated": "2026-11-14T21:52:49Z",
+        "license": "未知",
+        "weekly_stars": 6077
+      },
+      {
+        "name": "milind-soni/OpenMausBot",
+        "url": "https://github.com/milind-soni/OpenMausBot",
+        "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+        "language": "TypeScript",
+        "stars": 23712,
+        "created": "2026-08-11T18:58:55Z",
+        "topics": [
+          "ai-agents",
+          "claude-code",
+          "codex",
+          "computer-use",
+          "docker",
+          "electron",
+          "grok",
+          "grok-bot",
+          "grok-bot-alternative",
+          "self-hosted",
+          "typescript"
+        ],
+        "updated": "2026-11-16T07:53:39Z",
+        "license": "Apache-2.0",
+        "weekly_stars": 5463
+      },
+      {
+        "name": "google/elephant-goldfish-model",
+        "url": "https://github.com/google/elephant-goldfish-model",
+        "description": "Open-source plugin for designing and reviewing software with agents",
+        "language": "Python",
+        "stars": 19979,
+        "created": "2026-09-13T16:31:06Z",
+        "topics": [
+          "agent-skills",
+          "ai-agents",
+          "antigravity",
+          "claude-code",
+          "claude-code-plugin",
+          "claude-skills",
+          "codex",
+          "codex-plugin",
+          "coding-agents",
+          "context-engineering",
+          "developer-tools",
+          "gemini",
+          "llm",
+          "multi-agent",
+          "prompt-engineering",
+          "spec-driven-development"
+        ],
+        "updated": "2026-11-15T18:47:38Z",
+        "license": "Apache-2.0",
+        "weekly_stars": 5060
+      },
+      {
+        "name": "we-promise/sure",
+        "url": "https://github.com/we-promise/sure",
+        "description": "The personal finance app for everyone (by everyone)",
+        "language": "Ruby",
+        "stars": 15808,
+        "created": "2025-07-23T04:13:55Z",
+        "topics": [],
+        "updated": "2026-11-16T07:35:14Z",
+        "license": "AGPL-3.0",
+        "weekly_stars": 4556
+      },
+      {
+        "name": "ZhuLinsen/daily_stock_analysis",
+        "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+        "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+        "language": "Python",
+        "stars": 72623,
+        "created": "2026-01-10T06:43:20Z",
+        "topics": [
+          "a-stock",
+          "ai-agent",
+          "aigc",
+          "llm",
+          "quant",
+          "quantitative-finance",
+          "quantitative-trading"
+        ],
+        "updated": "2026-11-15T15:47:25Z",
+        "license": "MIT",
+        "weekly_stars": 4548
+      },
+      {
+        "name": "vercel-labs/agent-browser",
+        "url": "https://github.com/vercel-labs/agent-browser",
+        "description": "Browser automation CLI for AI agents",
+        "language": "Rust",
+        "stars": 51770,
+        "created": "2026-01-11T05:38:15Z",
+        "topics": [],
+        "updated": "2026-11-15T12:43:23Z",
+        "license": "Apache-2.0",
+        "weekly_stars": 4217
+      },
+      {
+        "name": "addyosmani/agent-skills",
+        "url": "https://github.com/addyosmani/agent-skills",
+        "description": "Production-grade engineering skills for AI coding agents.",
+        "language": "JavaScript",
+        "stars": 118070,
+        "created": "2026-02-15T20:20:26Z",
+        "topics": [
+          "agent-skills",
+          "antigravity",
+          "claude-code",
+          "codex",
+          "cursor",
+          "skills"
+        ],
+        "updated": "2026-11-14T04:33:56Z",
+        "license": "MIT",
+        "weekly_stars": 3889
+      },
+      {
+        "name": "google-deepmind/mujoco",
+        "url": "https://github.com/google-deepmind/mujoco",
+        "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+        "language": "C++",
+        "stars": 18113,
+        "created": "2021-08-27T12:25:48Z",
+        "topics": [
+          "mujoco",
+          "physics",
+          "robotics"
+        ],
+        "updated": "2026-11-16T07:21:36Z",
+        "license": "Apache-2.0",
+        "weekly_stars": 1922
+      }
+    ]
+  }
+]
