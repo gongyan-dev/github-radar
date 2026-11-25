@@ -1,3 +1,64 @@
 <!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>开源雷达 · 每周发现值得关注的项目</title><link rel="stylesheet" href="style.css"></head>
-<body><header><a class="brand" href="./">◈ 开源雷达 <small>GITHUB RADAR</small></a><span class="edition">每周一期 · 持续观察</span></header><main><section class="hero"><div class="eyebrow">THE OPEN SOURCE EDIT</div><h1>好项目，<br>值得被发现<span>。</span></h1><p>追踪开源世界的变化，把值得关注的工具<br>留在你的下一次灵感里。</p><div class="stamp">OPEN<br>SOURCE<br><b>WEEKLY ↗</b></div></section><section class="stats"><div><b id="count">—</b><span>收录项目</span></div><div><b id="ready">—</b><span>本周热榜项目</span></div><div><b id="date">—</b><span>最近采集 · 北京时间</span></div></section><nav><button class="active" data-view="all">项目库</button><button data-view="weekly">本周热榜</button><button data-view="archive">历史周报</button></nav><div class="filters"><input id="search" aria-label="搜索项目" placeholder="搜索项目、用途或标签…"><select id="language" aria-label="编程语言"><option value="">所有语言</option></select><select id="sort" aria-label="排序"><option value="stars">按总 Star</option><option value="recent">按创建时间</option></select><select id="report" aria-label="周报日期" hidden></select></div><p id="note" class="note">正在加载真实 GitHub 数据…</p><section id="projects" class="grid" aria-live="polite"></section><footer><b>◈ 开源雷达</b><p>项目数据来自 GitHub API · 本周热榜来自 GitHub Trending 周榜<br>按本周获得的 Star 数排序；每天更新，周一归档。</p></footer></main><script src="app.js"></script></body></html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>开源雷达 · 每周发现值得关注的项目</title>
+<meta name="description" content="每天采集 GitHub 热门开源项目，用中文介绍每个项目是做什么的。">
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.dataset.theme=localStorage.getItem('theme')||'';</script>
+</head>
+<body>
+<header>
+  <a class="brand" href="./">◈ 开源雷达 <small>GITHUB RADAR</small></a>
+  <div class="header-right">
+    <span class="edition">每天更新 · 每周归档</span>
+    <button id="theme" class="icon-btn" type="button" aria-label="切换深色/浅色模式" title="切换深色/浅色模式">◐</button>
+  </div>
+</header>
+<main>
+  <section class="hero">
+    <div class="eyebrow">THE OPEN SOURCE EDIT</div>
+    <h1>好项目，<br>值得被发现<span>。</span></h1>
+    <p>每天追踪 GitHub 上的热门项目，<br>用中文讲清楚每个项目是做什么的。</p>
+    <div class="stamp" aria-hidden="true">OPEN<br>SOURCE<br><b>WEEKLY ↗</b></div>
+  </section>
+
+  <section class="stats">
+    <div><b id="count">—</b><span>收录项目</span></div>
+    <div><b id="ready">—</b><span>本周热榜</span></div>
+    <div><b id="summarized">—</b><span>已有中文介绍</span></div>
+    <div><b id="date">—</b><span>最近采集 · 北京时间</span></div>
+  </section>
+
+  <div class="toolbar">
+    <nav aria-label="视图">
+      <button class="active" type="button" data-view="weekly">本周热榜</button>
+      <button type="button" data-view="all">项目库</button>
+      <button type="button" data-view="archive">历史周报</button>
+    </nav>
+    <div class="filters">
+      <input id="search" type="search" aria-label="搜索项目" placeholder="搜索项目名、介绍或标签…">
+      <select id="language" aria-label="编程语言"><option value="">所有语言</option></select>
+      <select id="sort" aria-label="排序" hidden>
+        <option value="stars">按总 Star</option>
+        <option value="recent">按创建时间</option>
+        <option value="updated">按最近更新</option>
+      </select>
+      <select id="report" aria-label="周报日期" hidden></select>
+    </div>
+  </div>
+
+  <p id="note" class="note">正在加载 GitHub 数据…</p>
+  <section id="projects" class="grid" aria-live="polite"></section>
+  <div class="more-wrap"><button id="more" class="more" type="button" hidden>加载更多</button></div>
+
+  <footer>
+    <b>◈ 开源雷达</b>
+    <p>项目数据来自 GitHub API · 本周热榜来自 GitHub Trending 周榜，按本周新增 Star 排序<br>中文介绍由大模型根据仓库 README 生成，可能有误差，请以项目原文为准。</p>
+  </footer>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
