@@ -65,7 +65,7 @@ def ask_llm(project, readme_text):
     return clean(reply['choices'][0]['message']['content'] or '')
 
 
-def summarize(projects, cache, get, llm=None, workers=4):
+def summarize(projects, cache, get, llm=None, workers=2):
     """为缓存中没有或已过期的项目生成介绍。返回新生成的条数；单个项目失败不影响整体。"""
     if llm is None:
         if not os.getenv('LLM_API_KEY'):
