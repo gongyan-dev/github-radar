@@ -28,6 +28,7 @@
   <section class="stats">
     <div><b id="count">—</b><span>收录项目</span></div>
     <div><b id="ready">—</b><span>本周热榜</span></div>
+    <div><b id="skill-count">—</b><span>收录 Skills</span></div>
     <div><b id="summarized">—</b><span>已有中文介绍</span></div>
     <div><b id="date">—</b><span>最近采集 · 北京时间</span></div>
   </section>
@@ -36,12 +37,14 @@
     <nav aria-label="视图">
       <button class="active" type="button" data-view="weekly">本周热榜</button>
       <button type="button" data-view="all">项目库</button>
+      <button type="button" data-view="skills">Skills</button>
       <button type="button" data-view="archive">历史周报</button>
     </nav>
     <div class="filters">
       <input id="search" type="search" aria-label="搜索项目" placeholder="搜索项目名、介绍或标签…">
       <select id="language" aria-label="编程语言"><option value="">所有语言</option></select>
       <select id="sort" aria-label="排序" hidden>
+        <option value="growth">按近 7 天涨星</option>
         <option value="stars">按总 Star</option>
         <option value="recent">按创建时间</option>
         <option value="updated">按最近更新</option>
@@ -52,11 +55,11 @@
 
   <p id="note" class="note">正在加载 GitHub 数据…</p>
   <section id="projects" class="grid" aria-live="polite"></section>
-  <div class="more-wrap"><button id="more" class="more" type="button" hidden>加载更多</button></div>
+  <div id="pager" class="pager" role="navigation" aria-label="分页" hidden></div>
 
   <footer>
     <b>◈ 开源雷达</b>
-    <p>项目数据来自 GitHub API · 本周热榜来自 GitHub Trending 周榜，按本周新增 Star 排序<br>中文介绍由大模型根据仓库 README 生成，可能有误差，请以项目原文为准。</p>
+    <p>项目数据来自 GitHub API · 本周热榜按近 7 天新增 Star 排序（每日 Star 快照相减，参考 GitHub Trending 周榜）<br>中文介绍由大模型根据仓库 README 生成，可能有误差，请以项目原文为准。</p>
   </footer>
 </main>
 <script src="app.js"></script>

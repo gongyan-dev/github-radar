@@ -4,14 +4,18 @@
   LLM_API_KEY    必填，未设置时跳过生成，只使用已有缓存
   LLM_BASE_URL   默认 https://smarttoken.ghnorth.cn/v1
   LLM_MODEL      默认 qwen3.8-27b
+  LLM_EXTRA_BODY 可选，JSON 对象，原样并入请求体，例如关闭思考：{"enable_thinking": false}
   MAX_SUMMARIES  单次运行最多新生成多少条，默认 300
 """
 import base64
+import collections
 import concurrent.futures
 import hashlib
 import json
 import os
 import re
+import time
+import urllib.error
 import urllib.request
 
 PROMPT = (
@@ -29,19 +33,61 @@ def fingerprint(project):
 
 
 def clean(text):
-    text = re.sub(r'<think>.*?</think>', '', text, flags=re.S)
+    text = re.sub(r'<think>.*?(</think>|$)', '', text, flags=re.S)  # 思考被截断时没有闭合标签
     text = re.sub(r'^[#>*\-\s"“]+|["”\s]+$', '', text.strip())
     return re.sub(r'\s+', ' ', text)
 
 
-def readme(get, name):
-    try:
-        data = get('repos/' + name + '/readme')
-        text = base64.b64decode(data.get('content', '')).decode('utf-8', 'ignore')
-    except Exception:
-        return ''
+def raw_readme(name):
+    """从 raw.githubusercontent.com 直接下载 README，不占 GitHub API 额度。找不到返回 None。"""
+    for file in ('README.md', 'readme.md', 'Readme.md', 'README.rst', 'README'):
+        try:
+            with urllib.request.urlopen(f'https://raw.githubusercontent.com/{name}/HEAD/{file}', timeout=20) as r:
+                return r.read().decode('utf-8', 'ignore')
+        except urllib.error.HTTPError as e:
+            if e.code != 404:
+                return None
+        except Exception:
+            return None
+    return None
+
+
+def readme(get, name, raw=raw_readme):
+    """先走 raw 链接；文件名不常见或下载失败时，再用 API 查（API 能找到任意文件名的 README）。"""
+    text = raw(name)
+    if text is None:
+        try:
+            data = get('repos/' + name + '/readme')
+            text = base64.b64decode(data.get('content', '')).decode('utf-8', 'ignore')
+        except Exception:
+            return ''
     text = re.sub(r'<[^>]+>|!\[[^\]]*\]\([^)]*\)', ' ', text)  # 去掉 HTML 标签和图片
     return re.sub(r'\n\s*\n+', '\n', text)[:6000]
+
+
+def retry(call, tries=4, sleep=time.sleep):
+    """限流（429）、服务端错误（5xx）和超时时等待后重试，等待 10s、30s、90s；有 Retry-After 时按它等。"""
+    for attempt in range(tries):
+        try:
+            return call()
+        except urllib.error.HTTPError as e:
+            if attempt == tries - 1 or (e.code != 429 and e.code < 500):
+                raise
+            wait = e.headers.get('Retry-After') if e.headers else None
+            sleep(int(wait) if wait and wait.isdigit() else 10 * 3 ** attempt)
+        except (urllib.error.URLError, TimeoutError):
+            if attempt == tries - 1:
+                raise
+            sleep(10 * 3 ** attempt)
+
+
+def reason(e):
+    """失败原因归类，运行结束时汇总打印，方便在 Actions 日志里一眼看出问题。"""
+    if isinstance(e, urllib.error.HTTPError):
+        return f'HTTP {e.code}'
+    if isinstance(e, (urllib.error.URLError, TimeoutError)):
+        return '网络错误或超时'
+    return type(e).__name__
 
 
 def ask_llm(project, readme_text):
@@ -55,17 +101,24 @@ def ask_llm(project, readme_text):
         'model': os.getenv('LLM_MODEL') or 'qwen3.8-27b',
         'messages': [{'role': 'system', 'content': PROMPT}, {'role': 'user', 'content': info}],
         'max_tokens': 2000,
+        **json.loads(os.getenv('LLM_EXTRA_BODY') or '{}'),
     }).encode('utf-8')
     request = urllib.request.Request(base + '/chat/completions', data=body, headers={
         'Authorization': 'Bearer ' + os.environ['LLM_API_KEY'],
         'Content-Type': 'application/json',
     })
-    with urllib.request.urlopen(request, timeout=120) as r:
-        reply = json.load(r)
-    return clean(reply['choices'][0]['message']['content'] or '')
+    def call():
+        with urllib.request.urlopen(request, timeout=180) as r:
+            return json.load(r)
+    choice = retry(call)['choices'][0]
+    text = clean(choice['message'].get('content') or '')
+    if len(text) < 10:
+        # 常见于思考模型：max_tokens 全花在思考上，正文为空，finish_reason 为 length
+        raise ValueError(f"回复为空或过短（finish_reason={choice.get('finish_reason')}）")
+    return text
 
 
-def summarize(projects, cache, get, llm=None, workers=2):
+def summarize(projects, cache, get, llm=None, workers=2, raw=raw_readme):
     """为缓存中没有或已过期的项目生成介绍。返回新生成的条数；单个项目失败不影响整体。"""
     if llm is None:
         if not os.getenv('LLM_API_KEY'):
@@ -75,12 +128,17 @@ def summarize(projects, cache, get, llm=None, workers=2):
     todo = [p for p in projects if cache.get(p['name'], {}).get('fp') != fingerprint(p)]
     todo = todo[:int(os.getenv('MAX_SUMMARIES') or 300)]
 
+    failed = collections.Counter()
+
     def work(p):
         try:
-            text = llm(p, readme(get, p['name']))
-            return p, text if len(text) >= 10 else None
+            text = llm(p, readme(get, p['name'], raw))
+            if len(text) < 10:
+                raise ValueError('回复为空或过短')
+            return p, text
         except Exception as e:
-            print(f"生成介绍失败 {p['name']}: {e}")
+            failed[reason(e)] += 1
+            print(f"生成介绍失败 {p['name']}: {e}", flush=True)
             return p, None
 
     done = 0
@@ -90,6 +148,8 @@ def summarize(projects, cache, get, llm=None, workers=2):
                 cache[p['name']] = {'summary': text, 'fp': fingerprint(p)}
                 done += 1
     print(f'新生成中文介绍 {done}/{len(todo)} 条')
+    if failed:
+        print('失败原因：' + '，'.join(f'{k} × {v}' for k, v in failed.most_common()))
     return done
 
 

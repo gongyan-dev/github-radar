@@ -36,7 +36,7 @@ header{height:88px;display:flex;align-items:center;justify-content:space-between
 .stamp{position:absolute;right:80px;top:70px;background:var(--accent-soft);border:1px solid var(--accent);border-radius:50%;width:220px;height:220px;display:flex;flex-direction:column;justify-content:center;text-align:center;font-size:31px;letter-spacing:3px;transform:rotate(9deg);color:var(--text)}
 .stamp b{font-size:14px;margin-top:14px}
 
-.stats{display:grid;grid-template-columns:repeat(4,auto);justify-content:start;gap:64px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:24px 0}
+.stats{display:grid;grid-template-columns:repeat(5,auto);justify-content:start;gap:48px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:24px 0}
 .stats div{display:flex;gap:12px;align-items:baseline}
 .stats b{font-size:27px;font-variant-numeric:tabular-nums}
 .stats span{font-size:12px;color:var(--muted)}
@@ -75,9 +75,13 @@ input{flex:1;min-width:100px}
 .muted{color:var(--faint)}
 .empty{grid-column:1/-1;padding:60px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:10px}
 
-.more-wrap{text-align:center;margin-top:28px}
-.more{font:inherit;font-size:14px;background:var(--surface);color:var(--text);border:1px solid var(--line);border-radius:30px;padding:11px 28px;cursor:pointer}
-.more:hover{border-color:var(--accent)}
+.pager{display:flex;justify-content:center;align-items:center;gap:8px;margin-top:28px;flex-wrap:wrap}
+.pager[hidden]{display:none}
+.pager button{font:inherit;font-size:14px;min-width:40px;height:40px;padding:0 14px;background:var(--surface);color:var(--text);border:1px solid var(--line);border-radius:20px;cursor:pointer;font-variant-numeric:tabular-nums}
+.pager button:hover:not(:disabled){border-color:var(--accent)}
+.pager button:disabled{cursor:default;opacity:.45}
+.pager button[aria-current]{opacity:1;background:var(--accent);border-color:var(--accent);color:var(--bg);font-weight:700}
+.pager .gap{color:var(--muted);padding:0 2px}
 
 footer{margin-top:70px;border-top:1px solid var(--line);padding:30px 0 45px;display:flex;justify-content:space-between;gap:30px}
 footer p{margin:0;font-size:11px;color:var(--muted);line-height:1.8;text-align:right}

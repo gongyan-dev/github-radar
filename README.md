@@ -4,7 +4,7 @@
 
 ## 当前状态
 
-项目库从 GitHub 搜索热门、近期和 AI 仓库；本周热榜直接读取 GitHub Trending 周榜。每个项目附一段由大模型根据 README 生成的中文介绍。Sites 发布的是静态版本，不会执行 GitHub Actions。
+项目库从 GitHub 搜索热门、近期和 AI 仓库；Skills 栏搜索打了 agent-skills、claude-skills、claude-code-skills 标签或仓库名带 skill 的仓库；本周热榜按近 7 天新增 Star 排序（每日 Star 快照存在 `data/stars.json`）。每个项目附一段由大模型根据 README 生成的中文介绍。Sites 发布的是静态版本，不会执行 GitHub Actions。
 
 ## 在 GitHub 启用自动更新
 
@@ -17,7 +17,7 @@
 
 ## 中文介绍
 
-采集时为每个项目读取 README，调用大模型（OpenAI Chat Completions 兼容接口）生成 50～90 字的中文介绍，缓存在 `data/summaries.json`。每个项目只生成一次，简介或标签变化时重新生成；单次运行最多新生成 300 条（环境变量 `MAX_SUMMARIES`）。
+采集时为每个项目读取 README，调用大模型（OpenAI Chat Completions 兼容接口）生成 50～90 字的中文介绍，缓存在 `data/summaries.json`。每个项目只生成一次，简介或标签变化时重新生成；单次运行最多新生成 300 条（环境变量 `MAX_SUMMARIES`）。限流、超时会自动重试；运行日志末尾会汇总失败原因。
 
 在 Settings → Secrets and variables → Actions 中配置：
 
@@ -26,6 +26,7 @@
 | Secrets | `LLM_API_KEY` | 模型平台的 API Key，必填；未配置时跳过生成，页面显示英文原文 |
 | Variables | `LLM_BASE_URL` | 可选，默认 `https://smarttoken.ghnorth.cn/v1` |
 | Variables | `LLM_MODEL` | 可选，默认 `qwen3.8-27b` |
+| Variables | `LLM_EXTRA_BODY` | 可选，JSON，并入请求体。思考模型生成慢、回复为空时可设 `{"enable_thinking": false}`（参数名以模型平台文档为准） |
 
 GitHub 采集本身使用自动提供的 github.token，无需配置。如果仓库规则不允许机器人直接推送，需要调整相应仓库权限或改为提交 PR。
 
@@ -36,11 +37,11 @@ Python 3.12+，不需要第三方包。
     python scripts/collect.py          # 需要中文介绍时先设置环境变量 LLM_API_KEY
     python -m http.server 8080 --directory dist
 
-未认证的 GitHub API 容易遇到共享 IP 限流；本地运行可从环境变量 GITHUB_TOKEN 读取令牌。
+一次完整采集约调用 GitHub API 10 次搜索加若干次单仓库查询；README 走 raw.githubusercontent.com 下载，不占 API 额度。未认证时每小时只有 60 次普通请求、每分钟 10 次搜索，本地多跑几次容易用完，可设置环境变量 GITHUB_TOKEN（只读公开仓库的 fine-grained token 即可）。搜索接口的每分钟限流会自动等待重试。
 
 ## 数据口径
 
-本周热榜读取 GitHub Trending 的 weekly 页面，按页面显示的「stars this week」排序，取前 10 个仓库；既可包含新项目，也可包含本周走红的老项目。采集失败时不覆盖旧数据。每周归档一次当时的项目数据，避免历史榜单随当前数据变化。项目库另外使用 GitHub Search API 获取候选项目。
+本周热榜：每天记录所有收录项目的 Star 数，用当天减去 7 天前的快照得到近 7 天新增 Star，取前 10。GitHub Trending 周榜上的项目一并纳入候选，自己没有确切数据时用 Trending 页面的「stars this week」。项目库和 Skills 默认也按近 7 天涨星排序，快照不足 7 天时按已有天数折算并标「约」。采集失败时不覆盖旧数据。每周归档一次当时的热榜，避免历史榜单随当前数据变化。
 
 ## 验证
 
