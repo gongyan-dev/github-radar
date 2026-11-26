@@ -702,5 +702,77 @@
   "amosblomqvist/learnharness": {
     "summary": "LearnHarness 是一个用 AI 代理辅助学习难点的桌面应用。它先测量你当前的理解水平，再规划到目标的依赖路径，逐步教学并配合练习。学习记录以知识图谱形式跨会话保留，数据存在本地，支持 macOS、Windows 和 Linux，开源采用 AGPL-3.0 协议。",
     "fp": "cbf0dc05f3d3"
+  },
+  "storytold/craft-anything": {
+    "summary": "Craft Anything 是一个 Rust 编写的开源工具，指向任意网站、应用或游戏，由 AI 代理研究其结构后生成你自己的版本。默认清洁室模式不读源码，构建结果会与原版对比并迭代优化。所有工具均可作 CLI 或 MCP 接口调用，适合想学习或复刻软件的开发者。",
+    "fp": "6d6700d23775"
+  },
+  "anefzaoui/misterdownloadmanager": {
+    "summary": "Mister Download Manager 是一款用纯 Rust 编写的跨平台开源下载管理器，运行于 Windows、Linux 和 macOS。界面布局接近 IDM，支持下载加速、magnet 和 torrent、浏览器扩展，提供 87 种语言，免费无广告，适合寻找 IDM 免费替代方案的用户。",
+    "fp": "e934754efe33"
+  },
+  "DietrichGebert/ponytail": {
+    "summary": "Ponytail 是一个 AI 编程助手插件，用提示词让 Claude Code、Codex、Cursor 等 agent 只写任务所需的代码，避免过度设计。它在压缩代码量和 token 消耗的同时保留安全验证与测试，适合日常使用 AI 辅助编码的开发者。",
+    "fp": "31aab96a2244"
+  },
+  "affaan-m/ECC": {
+    "summary": "ECC 是一个面向 AI 编码代理的工程流程优化系统，为 Claude Code、Codex、Cursor 等工具提供规划、测试、审查、记忆等标准化工作流，免去每次在提示词中重复搭建流程的麻烦。内置 72 个专用代理、328 项技能和 AgentShield 安全扫描，适合日常使用 AI 辅助编程的开发者。",
+    "fp": "076814278962"
+  },
+  "EL4CTEO/fast-anything": {
+    "summary": "fast-anything 对 Python、Node、Ruby 等应用做 profiling，找出最慢的函数，让 Claude Code 或 Codex 等代理将其移植到 Rust，用录制的真实调用验证一致后替换。支持逐函数开关、完全可逆，适合只想加速关键路径而不重写整个项目的开发者。",
+    "fp": "598f2a7bcca9"
+  },
+  "AFK-surf/xnulinux": {
+    "summary": "xnulinux 将 macOS 的 XNU 开源内核编译为 Linux 可加载模块（xnu.ko），在 arm64 Linux 上直接运行 macOS 用户空间，中间没有 hypervisor。macOS 进程与 Linux 进程共用同一批 CPU，Linux 通过 fki.ko 接口为 XNU 提供内存、定时器、网络和 GPU 支持。目前可在 Apple Silicon Mac 的 Linux 虚拟机及 NVIDIA DGX Spark 上启动 macOS 27 完整桌面。",
+    "fp": "c91080cf74b9"
+  },
+  "Graphify-Labs/graphify": {
+    "summary": "Graphify 把代码库及文档、配置、PDF 映射为可查询的知识图谱，用图遍历代替逐文件搜索。代码经本地 tree-sitter AST 解析，确定性、不经 LLM；每条边标注为直接提取或推断。无需向量存储，兼容 Claude Code、Cursor、Codex 等二十余个 AI 编码助手。",
+    "fp": "3ec4c34574f8"
+  },
+  "kingcharleslzy-ai/dsh-purge": {
+    "summary": "dsh-purge Community 是 DeepSeek Harness 的本机插件，把反复的确认与打断收敛为一次设置，同时提供宿主补丁、状态自检和提示词管理。逻辑全部在本地运行，操作前自动快照、支持回滚。适合在本机做学习实验、希望减少 agent 交互摩擦的用户。",
+    "fp": "a4af1cf1e19a"
+  },
+  "R0Y00/Xbox2Windows": {
+    "summary": "Xbox2Windows 是一个静态重编译研究项目，将 Xbox Series X|S 的 x64 机器码转译为 C++、gfx1013 着色器转译为桌面 DXIL，目标是让主机软件运行在 Windows 上。项目提供无需安装游戏即可执行的 CPU 和 GPU 测试，完整游戏启动尚未验证，适合关注主机架构转译与 D3D12 开发的研究者。",
+    "fp": "df3a4fad0da8"
+  },
+  "omonkeyz/xbox-emulator": {
+    "summary": "用 Rust 编写的 Xbox Series X|S 模拟器，通过重实现主机平台层让已解密游戏作为 Windows 进程运行，是 TomBox 项目的延续。目前已可运行 Trackmania、Terraria 等游戏，适合想跳过主机直接在 PC 上玩 Xbox 游戏的玩家。",
+    "fp": "a046f4b6b28c"
+  },
+  "trimstray/the-book-of-secret-knowledge": {
+    "summary": "the-book-of-secret-knowledge 将 CLI 工具、速查表、手册、Shell 一行命令及渗透测试、网络、容器等领域资源汇总为一份合集，面向系统管理员、DevOps 工程师和安全研究人员，方便日常查阅和快速定位资料。",
+    "fp": "bb2ea4462449"
+  },
+  "yt-dlp/yt-dlp": {
+    "summary": "yt-dlp 是一个用 Python 编写的命令行音视频下载工具，基于已停止维护的 youtube-dl 分叉而来，支持数千个网站的下载。它提供格式选择、字幕提取、元数据修改、SponsorBlock 集成和插件扩展等功能，适合需要精细控制下载参数的用户。",
+    "fp": "f0d7e272b0c3"
+  },
+  "NousResearch/hermes-agent": {
+    "summary": "Hermes Agent 是 Nous Research 开发的 Python AI 代理，内置学习循环：从任务经验中自动创建技能、使用中持续改进、跨会话检索历史对话并建立用户画像。支持多家模型供应商，可部署在低成本 VPS 或 Serverless 上，通过 Telegram、Slack 等渠道交互，适合需要长期运行个性化代理的用户。",
+    "fp": "8f39c2553ec0"
+  },
+  "sybil-solutions/inference-optimisation-skill": {
+    "summary": "本地 LLM 推理调优的 agent 技能，用爬山法逐项优化解码、投机解码、prefill 和 KV 缓存，适配任意硬件与量化。含理论上限计算、对照基准脚本和长上下文稳定性门禁，适合经 Claude Code 驱动推理服务器做性能调优。",
+    "fp": "a3a43e74d56b"
+  },
+  "JuliusBrussee/caveman": {
+    "summary": "Caveman 是一个本地代理工具，通过压缩 AI 编码代理的回答和工具输出来减少 token 消耗。它支持 Claude Code、Codex、Gemini CLI 等 30 多个代理，一条命令安装，用已有密钥在本地运行。适合日常使用 AI 编码代理、希望降低 API 成本的开发者。",
+    "fp": "ad37aa6a5777"
+  },
+  "thedotmack/claude-mem": {
+    "summary": "Claude-Mem 为 AI 编码代理提供跨会话记忆，避免每次新会话都从零开始、重复读文件。它运行一个观察者代理记录工作并用 AI 压缩，下次会话自动注入相关上下文。支持 Claude Code、Codex 等十余种代理，适合常用 AI 编码助手的开发者。",
+    "fp": "f277bae8ccf4"
+  },
+  "addyosmani/agent-skills": {
+    "summary": "Agent Skills 为 AI 编码代理提供生产级工程技能包，将高级工程师的工作流与质量标准打包，覆盖规格、构建、测试、发布等完整周期。含 26 个技能和 10 个斜杠命令，兼容 Claude Code、Cursor 等主流代理工具，适合用 AI 辅助编码并希望统一质量流程的开发者。",
+    "fp": "79095cb15939"
+  },
+  "vinta/awesome-python": {
+    "summary": "awesome-python 是一个 Python 工具目录，帮你回答\"用 Python 做 X 该选哪个库\"。内容按 AI、Web 开发、数据库、数据科学、DevOps、安全等数十个类别整理，配有可搜索筛选的官网，适合开发选型时查阅。",
+    "fp": "b2c8c375b90b"
   }
 }
