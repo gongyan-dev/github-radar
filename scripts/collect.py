@@ -1,122 +1,14 @@
+"""每周出榜：跑一轮观察池，排出本周热榜前十，生成中文介绍，打包页面数据。"""
 import datetime as dt
 import json
-import os
-import pathlib
-import re
-import urllib.error
-import urllib.request
-import urllib.parse
-import time
 
+import pool
+import rank
+from github import get, graphql, token
 from summarize import attach, summarize
 
-ROOT = pathlib.Path(__file__).resolve().parents[1]
+ROOT = pool.ROOT
 
-def rate_limit_wait(e):
-    """GitHub 限流（403/429）时该等几秒；不是限流或要等太久（超过 90s，通常是每小时额度用完）返回 None。"""
-    if e.code not in (403, 429) or not e.headers:
-        return None
-    if (e.headers.get('Retry-After') or '').isdigit():
-        wait = int(e.headers['Retry-After'])
-    elif e.headers.get('X-RateLimit-Remaining') == '0' and (e.headers.get('X-RateLimit-Reset') or '').isdigit():
-        wait = int(e.headers['X-RateLimit-Reset']) - time.time() + 1
-    else:
-        return None
-    return max(wait, 1) if wait <= 90 else None
-
-def fetch(url, headers, sleep=time.sleep, data=None):
-    # 网络偶发失败和 5xx 重试 3 次，间隔 1s、2s；搜索接口的每分钟限流按 GitHub 给的重置时间等待后重试；
-    # 其它 4xx（含每小时额度耗尽）直接报错，不白白重试浪费额度
-    for attempt in range(3):
-        try:
-            with urllib.request.urlopen(urllib.request.Request(url, data=data, headers=headers), timeout=60) as r:
-                return r.read()
-        except urllib.error.HTTPError as e:
-            wait = rate_limit_wait(e)
-            if attempt == 2 or (wait is None and e.code < 500): raise
-            sleep(wait or 2 ** attempt)
-        except Exception:
-            if attempt == 2: raise
-            sleep(2 ** attempt)
-
-def trending_weekly():
-    html = fetch('https://github.com/trending?since=weekly', {'User-Agent': 'github-weekly-radar', 'Accept-Language': 'en-US'}).decode('utf-8')
-    return parse_trending(html, limit=None)
-
-def parse_trending(html, limit=10):
-    ranked = []
-    for article in re.findall(r'<article class="Box-row"[^>]*>(.*?)</article>', html, re.S):
-        name = re.search(r'<h2\b[^>]*>.*?<a\b[^>]*href="/([^"/]+/[^"/]+)"', article, re.S)
-        stars = re.search(r'([\d,]+)\s+stars? this week', article)
-        if name and stars:
-            ranked.append((name.group(1), int(stars.group(1).replace(',', ''))))
-    if len(ranked) < 10:
-        raise ValueError('GitHub Trending weekly returned fewer than 10 projects')
-    return sorted(ranked, key=lambda item: (-item[1], item[0]))[:limit]
-
-def get(path):
-    headers = {'Accept': 'application/vnd.github+json', 'User-Agent': 'github-weekly-radar'}
-    if os.getenv('GITHUB_TOKEN'):
-        headers['Authorization'] = 'Bearer ' + os.environ['GITHUB_TOKEN']
-    return json.loads(fetch('https://api.github.com/' + path, headers))
-
-def discover(days=7, limit=200):
-    """在全 GitHub 范围找近 days 天加星最多的 limit 个仓库，用 ClickHouse 公开的 GitHub 事件数据集（来自 GH Archive）。
-    这份事件数据是抽样的，数字远小于真实值，只用来发现候选；真实涨星仍由每日 Star 快照相减得出。失败时返回空列表。"""
-    sql = (f"SELECT repo_name FROM github_events WHERE event_type = 'WatchEvent' AND created_at >= now() - INTERVAL {int(days)} DAY "
-           f"GROUP BY repo_name ORDER BY count() DESC LIMIT {int(limit)} FORMAT JSONCompact")
-    try:
-        data = json.loads(fetch('https://play.clickhouse.com/?user=play', {'User-Agent': 'github-weekly-radar'}, data=sql.encode()))
-        return [row[0] for row in data['data'] if '/' in row[0]]
-    except Exception as e:
-        print(f'全 GitHub 加星数据获取失败，本次只用已收录项目：{e}')
-        return []
-
-GRAPHQL_FIELDS = 'nameWithOwner url description stargazerCount createdAt pushedAt isArchived primaryLanguage{name} licenseInfo{spdxId} repositoryTopics(first:10){nodes{topic{name}}}'
-
-def from_graphql(node):
-    """GraphQL 返回的仓库转成和 REST 接口同样的字段，方便复用 to_project。"""
-    return {'full_name': node['nameWithOwner'], 'html_url': node['url'], 'description': node['description'],
-            'language': (node['primaryLanguage'] or {}).get('name'), 'stargazers_count': node['stargazerCount'],
-            'created_at': node['createdAt'], 'pushed_at': node['pushedAt'],
-            'topics': [t['topic']['name'] for t in node['repositoryTopics']['nodes']],
-            'license': {'spdx_id': node['licenseInfo']['spdxId']} if node['licenseInfo'] else None}
-
-def lookup(names, batch=50):
-    """批量查仓库信息。有令牌时用 GraphQL，每次查 batch 个；没有令牌（本地匿名）时 GraphQL 不可用，
-    改用 REST 逐个查，最多 30 个，以免耗尽匿名额度。查不到的（改名、删除）和已归档的跳过。"""
-    token = os.getenv('GITHUB_TOKEN')
-    found = []
-    if not token:
-        for name in names[:30]:
-            try: found.append(get('repos/' + name))
-            except Exception: pass
-        return [r for r in found if not r.get('archived')]
-    headers = {'Authorization': 'Bearer ' + token, 'User-Agent': 'github-weekly-radar', 'Content-Type': 'application/json'}
-    for i in range(0, len(names), batch):
-        parts = []
-        for j, name in enumerate(names[i:i + batch]):
-            owner, repo = name.split('/', 1)
-            parts.append(f'r{j}: repository(owner: {json.dumps(owner)}, name: {json.dumps(repo)}) {{ {GRAPHQL_FIELDS} }}')
-        try:
-            reply = json.loads(fetch('https://api.github.com/graphql', headers, data=json.dumps({'query': '{ ' + ' '.join(parts) + ' }'}).encode()))
-        except Exception as e:
-            print(f'批量查询仓库失败：{e}')
-            continue
-        found += [from_graphql(node) for node in (reply.get('data') or {}).values() if node and not node['isArchived']]
-    return found
-
-def search(queries):
-    """按 Star 从高到低搜索仓库，每个查询取前 100 个，按全名去重。"""
-    items = {}
-    for query in queries:
-        for repo in get('search/repositories?' + urllib.parse.urlencode({'q': query, 'sort': 'stars', 'order': 'desc', 'per_page': 100}))['items']:
-            items[repo['full_name']] = repo
-        time.sleep(2)
-    return items
-
-def to_project(r):
-    return dict(name=r['full_name'], url=r['html_url'], description=r.get('description') or '暂无介绍', language=r.get('language') or '其他', stars=r['stargazers_count'], created=r['created_at'], topics=r.get('topics', []), updated=r['pushed_at'], license=(r.get('license') or {}).get('spdx_id', '未知'))
 
 def update_reports(reports, weekly, today):
     """每周归档一次。周一的定时任务失败或延迟时，本周之后的第一次成功运行补上归档。"""
@@ -128,91 +20,42 @@ def update_reports(reports, weekly, today):
     reports = [r for r in reports if r['date'] != today.isoformat()]
     return reports + [{'date': today.isoformat(), 'projects': weekly}]
 
-def record_stars(history, projects, today, keep=30):
-    """每天记一次各项目的 Star 数（同一天多次运行以最后一次为准），只保留最近 keep 天。"""
-    history[today.isoformat()] = {p['name']: p['stars'] for p in projects}
-    oldest = (today - dt.timedelta(days=keep)).isoformat()
-    return {d: v for d, v in sorted(history.items()) if d >= oldest}
-
-def growth(project, history, today):
-    """近 7 天涨星，返回 (涨星数, 是否估算)；算不出时返回 (None, False)。
-    有 7 天前（或更早）的快照时取其中最近的一份直接相减；
-    7 天内新建的仓库，现有 Star 全是这几天涨的；
-    其余只有不足 7 天的快照时，按已有天数折算成 7 天，标为估算。"""
-    name, stars = project['name'], project['stars']
-    cutoff = (today - dt.timedelta(days=7)).isoformat()
-    seen = [(d, v[name]) for d, v in sorted(history.items()) if name in v and d < today.isoformat()]
-    before = [x for x in seen if x[0] <= cutoff]
-    if before:
-        return stars - before[-1][1], False
-    if project['created'][:10] >= cutoff:
-        return stars, False
-    if seen:
-        days = (today - dt.date.fromisoformat(seen[0][0])).days
-        return round((stars - seen[0][1]) * 7 / days), True
-    return None, False
-
-def pick_weekly(projects, trending, n=10):
-    """本周热榜：在全部候选里按近 7 天涨星取前 n。
-    涨星取值依次为：自己快照算出的确切值 > Trending 页面的「stars this week」> 快照不足 7 天时的折算值（标 weekly_est）。
-    刚开始跟踪的仓库前 7 天只有折算值，满 7 天后自动变成确切值。"""
-    trend = dict(trending)
-    ranked = []
-    for p in projects:
-        if p.get('growth') is not None and not p.get('growth_est'):
-            ranked.append(dict(p, weekly_stars=p['growth']))
-        elif p['name'] in trend:
-            ranked.append(dict(p, weekly_stars=trend[p['name']]))
-        elif p.get('growth') is not None:
-            ranked.append(dict(p, weekly_stars=p['growth'], weekly_est=True))
-    return sorted(ranked, key=lambda p: (-p['weekly_stars'], p['name']))[:n]
 
 def main():
     now = dt.datetime.now(dt.timezone.utc)
-    today = now.astimezone(dt.timezone(dt.timedelta(hours=8))).date()
-    trending = trending_weekly()
-    items = search(['created:>=' + (now-dt.timedelta(days=7)).date().isoformat() + ' archived:false fork:false', 'stars:>1000 archived:false', 'stars:>50 archived:false created:>' + (today-dt.timedelta(days=90)).isoformat(), 'topic:ai stars:>100 archived:false'])
-    for name, _ in trending:
-        if name not in items:  # 搜索结果里已有的不再单独请求，省 API 额度
-            items[name] = get('repos/' + name)
-    projects = [to_project(r) for r in items.values()]
-    # Skills 栏：作者自己打了 skills 相关标签、或仓库名带 skill 的项目；最后一条专门捞 90 天内的新 skill
-    skills = [to_project(r) for r in search(['topic:agent-skills archived:false', 'topic:claude-skills archived:false', 'topic:claude-code-skills archived:false', 'skills in:name stars:>100 archived:false', 'skill in:name stars:>30 archived:false created:>' + (today-dt.timedelta(days=90)).isoformat()]).values()]
-    # 本周热榜候选：全 GitHub 近 7 天加星最多的 200 个 + Trending + 项目库 + Skills；没收录的补查仓库信息
-    known = {p['name'] for p in projects + skills}
-    extra = [to_project(r) for r in lookup([n for n in discover() if n not in known])]
-    stars_file = ROOT / 'data/stars.json'
-    history = record_stars(json.loads(stars_file.read_text('utf-8')) if stars_file.exists() else {}, projects + skills + extra, today)
-    for p in projects + skills + extra:
-        p['growth'], estimated = growth(p, history, today)
-        if estimated: p['growth_est'] = True
-    candidates = list({p['name']: p for p in extra + skills + projects}.values())
-    weekly_names = [p['name'] for p in pick_weekly(candidates, trending)]
+    today = pool.beijing_today()
+    found = pool.run(today)
+    projects, skills, history = found['projects'], found['skills'], found['history']
+    # 项目库和 Skills 的「近 7 天涨星」排序用快照相减，算不出的留空
+    for p in projects + skills:
+        p['growth'] = rank.measure(p, history, today)[0]
+
+    reports_file = ROOT / 'data/reports.json'
+    reports = pool.load(reports_file, [])
+    since = (now - dt.timedelta(days=7)).strftime('%Y-%m-%dT%H:%M:%SZ')
+    counter = (lambda name, pages: rank.count_recent_stars(name, since, graphql, pages)) if token() else None
+    weekly = rank.pick_weekly(found['members'], history, today, found['trending'], found['hot'], reports, counter)
+    weekly_names = {p['name'] for p in weekly}
+
     # 中文介绍：热榜项目排在前面优先生成，其余按近 7 天涨星，结果缓存，只为新项目调用模型
     summaries_file = ROOT / 'data/summaries.json'
-    summaries = json.loads(summaries_file.read_text('utf-8')) if summaries_file.exists() else {}
-    unique = list({p['name']: p for p in skills + projects + [c for c in candidates if c['name'] in weekly_names]}.values())
-    order = sorted(unique, key=lambda p: (p['name'] not in weekly_names, -(p['growth'] or 0)))
-    summarize(order, summaries, get)
+    summaries = pool.load(summaries_file, {})
+    unique = list({p['name']: p for p in skills + projects + weekly}.values())
+    summarize(sorted(unique, key=lambda p: (p['name'] not in weekly_names, -(p.get('growth') or p.get('weekly_stars') or 0))), summaries, get)
     attach(projects, summaries)
     attach(skills, summaries)
-    weekly = attach(pick_weekly(candidates, trending), summaries)
-    reports_file = ROOT / 'data/reports.json'
-    reports = json.loads(reports_file.read_text('utf-8')) if reports_file.exists() else []
+    attach(weekly, summaries)
+
     reports = update_reports(reports, weekly, today)
     # 历史周报里的项目也补上介绍（只写进 data.json，不改 reports.json 的存档）
     shown_reports = [dict(r, projects=attach([dict(p) for p in r['projects']], summaries)) for r in reports]
     payload = {'updated': now.isoformat(), 'projects': projects, 'skills': skills, 'weekly': weekly, 'reports': shown_reports}
     # reports.json / summaries.json 保留缩进便于看 diff；data.json 给浏览器下载，用紧凑格式减小体积
-    for file, data, indent in [(reports_file, reports, 2), (summaries_file, summaries, 2), (ROOT/'dist/data.json', payload, None), (stars_file, history, 'daily')]:
-        file.parent.mkdir(parents=True, exist_ok=True)
-        temp = file.with_suffix('.tmp')
-        if indent == 'daily':  # Star 快照每天一行，diff 只多一行
-            text = '{\n' + ',\n'.join(json.dumps(d) + ':' + json.dumps(v, separators=(',', ':')) for d, v in data.items()) + '\n}\n'
-        else:
-            text = json.dumps(data, ensure_ascii=False, indent=indent, separators=None if indent else (',', ':'))
-        temp.write_text(text, 'utf-8')
-        temp.replace(file)
-    print(f'Collected {len(projects)} projects, {len(skills)} skills, {len(candidates)} weekly candidates; {len(reports)} weekly reports')
+    pool.save(reports_file, json.dumps(reports, ensure_ascii=False, indent=2))
+    pool.save(summaries_file, json.dumps(summaries, ensure_ascii=False, indent=2))
+    pool.save(ROOT / 'dist/data.json', json.dumps(payload, ensure_ascii=False, separators=(',', ':')))
+    print(f'Collected {len(projects)} projects, {len(skills)} skills, {len(found["members"])} pool members; {len(reports)} weekly reports')
 
-if __name__ == '__main__': main()
+
+if __name__ == '__main__':
+    main()

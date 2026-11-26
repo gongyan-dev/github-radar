@@ -35,6 +35,17 @@ function rowsFor() {
   return view === 'weekly' ? data.weekly : data.projects;
 }
 
+// 热榜卡片上的「较上周涨跌 / 连续上榜」，旧周报没有这些字段时不显示
+function trend(p) {
+  if (p.streak === undefined) return null;
+  const parts = [];
+  if (p.prev_stars != null) parts.push((p.weekly_stars >= p.prev_stars ? '↑' : '↓') + ' 上周 +' + fmt(Math.max(p.prev_stars, 0)));
+  parts.push(p.streak > 0 ? '连续 ' + (p.streak + 1) + ' 周' : '新上榜');
+  const s = el('p', parts.join(' · '), 'trend');
+  s.title = '排序得分 ' + fmt(p.score) + '（本周涨星 × 加速系数 × 连续上榜衰减）';
+  return s;
+}
+
 function card(p, i) {
   const c = el('article', undefined, 'card');
 
@@ -49,6 +60,8 @@ function card(p, i) {
   h.append(a);
 
   c.append(top, h);
+  const t = trend(p);
+  if (t) c.append(t);
   if (p.summary) {
     c.append(el('p', p.summary, 'summary'));
     if (p.description && p.description !== '暂无介绍') {
@@ -89,7 +102,7 @@ function render() {
   }
 
   $('note').textContent =
-    view === 'weekly' ? '全 GitHub 近 7 天新增 Star 最多的 10 个项目（含 Skills），由 Star 快照相减得出；跟踪不满 7 天的按天数折算，标「约」。' :
+    view === 'weekly' ? '全 GitHub 本周热度前 10（含 Skills）：按近 7 天新增 Star 排，正在加速的往前，连续上榜的往后；Star 数来自每日快照，只有 Trending 数字的标「约」。' :
     view === 'archive' ? '每周一保存当时的本周热榜。' :
     view === 'skills' ? `找到 ${fmt(rows.length)} 个 Skills · 打了 agent-skills、claude-skills 等标签或仓库名带 skill 的 GitHub 仓库。` :
     `找到 ${fmt(rows.length)} 个项目 · 来自热门、近期及 AI 方向的 GitHub 仓库。`;

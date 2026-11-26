@@ -8,8 +8,10 @@ on:
       - 'scripts/**'
       - '.github/workflows/update.yml'
   schedule:
-    # 每周一北京时间 09:17
+    # 每周一北京时间 09:17：观察池 + 出榜 + 部署
     - cron: '17 1 * * 1'
+    # 周二到周日北京时间 08:30：只跑观察池，记当天的 Star 快照，不部署
+    - cron: '30 0 * * 0,2-6'
   workflow_dispatch:
     inputs:
       max_summaries:
@@ -19,8 +21,11 @@ permissions:
   contents: read
 concurrency:
   group: radar-update
-  # 新运行自动取消正在跑的旧运行，改完代码推上去不用等旧的跑完
-  cancel-in-progress: true
+  # 推送代码时取消正在跑的旧运行（推送运行自己也会记快照，不会漏一天）；定时运行排队，不互相取消
+  cancel-in-progress: ${{ github.event_name == 'push' }}
+env:
+  # 每日观察池任务只记快照，不出榜不部署
+  POOL_ONLY: ${{ github.event.schedule == '30 0 * * 0,2-6' }}
 jobs:
   # 采集数据、提交历史、打包页面
   build:
@@ -33,7 +38,12 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m unittest discover -s tests
-      - run: python scripts/collect.py
+      - if: env.POOL_ONLY == 'true'
+        run: python scripts/pool.py
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      - if: env.POOL_ONLY != 'true'
+        run: python scripts/collect.py
         env:
           GITHUB_TOKEN: ${{ github.token }}
           # 中文介绍用的模型密钥；未配置时跳过生成，不影响采集
@@ -52,14 +62,18 @@ jobs:
           git commit -m 'Update project snapshots'
           git pull --rebase
           git push
-      - uses: actions/configure-pages@v6
-      - uses: actions/upload-pages-artifact@v5
+      - if: env.POOL_ONLY != 'true'
+        uses: actions/configure-pages@v6
+      - if: env.POOL_ONLY != 'true'
+        uses: actions/upload-pages-artifact@v5
         with:
           path: dist
 
   # 部署单独成 job：部署偶发失败时，可以在 Actions 页面只重跑这一步
   deploy:
     needs: build
+    # job 级的 if 不能读 env，直接判断触发它的定时规则
+    if: github.event.schedule != '30 0 * * 0,2-6'
     runs-on: ubuntu-latest
     permissions:
       pages: write

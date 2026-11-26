@@ -73,6 +73,7 @@ input{flex:1;min-width:100px}
 .card .tags + .metrics{margin-top:0}
 .growth{color:var(--accent-text);font-weight:700}
 .muted{color:var(--faint)}
+.trend{margin:-4px 0 10px;font-size:12px;color:var(--faint);font-variant-numeric:tabular-nums}
 .empty{grid-column:1/-1;padding:60px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:10px}
 
 .pager{display:flex;justify-content:center;align-items:center;gap:8px;margin-top:28px;flex-wrap:wrap}
