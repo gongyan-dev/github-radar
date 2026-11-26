@@ -654,5 +654,53 @@
   "Louis-CFM/coucou": {
     "summary": "Coucou 是一个常驻 Mac 刘海、Windows/Linux 屏幕顶部以及 iPhone 锁屏和灵动岛的小工具，帮你监控 Claude Code、Codex、Cursor、Gemini CLI 等 AI 编码代理的会话。你可以实时查看代理编辑的文件，从刘海或锁屏直接审批权限，还能切换多种模型聊天。MIT 协议开源。",
     "fp": "860dea66b655"
+  },
+  "pingdotgg/t3code": {
+    "summary": "T3 Code 是开源的编码代理控制平面，把 Claude Code、Codex、Cursor 等代理统一到桌面、网页和手机一个界面中。它复用你已有的订阅，不转售 token；每个线程有独立 Git worktree，可一键提交并开 PR；支持通过局域网或 Tailscale 远程连接。适合需要跨设备管理多个 AI 编码代理的开发者。",
+    "fp": "cb11a09f6a32"
+  },
+  "Ebony-Vinyl/dsh-our-free-model": {
+    "summary": "dsh-our-free-model 是 dsh 的一个 JavaScript 插件，装上即可免费无限量使用 DeepSeek V4.1 Flash、Kimi K3 等前沿模型，无需登录、注册或填写 API Key。零依赖、不改内核",
+    "fp": "df110b3db79e"
+  },
+  "cathrynlavery/diagram-design": {
+    "summary": "diagram-design 是一个 Agent Skill，让 Claude Code、Cursor、GitHub Copilot 等 AI 助手按自然语言生成图表，输出为单个自包含的 HTML+SVG 文件。涵盖 52 种图表类型，支持从 drawio、Mermaid、PlantUML 导入，也可抓取目标网站的配色与字体来匹配品牌。适合在编程对话中需要快速出图的用户。",
+    "fp": "091a7078d62b"
+  },
+  "mattpocock/skills": {
+    "summary": "skills 是 Matt Pocock 为 Claude Code、Codex 等 AI 编码代理编写的一组技能文件，通过提问会话和项目术语表解决代理理解偏差、输出冗长等问题。技能小巧、可自由修改，适合用 AI 辅助做真实工程开发的开发者。",
+    "fp": "cab4b730eb2e"
+  },
+  "debpalash/VoiceStudio": {
+    "summary": "VoiceStudio 是开源的本地 AI 语音工具，提供语音克隆、设计、视频配音、听写转录和有声书创作功能，支持 646 种语言。无需账号和联网，可在 macOS、Windows、Linux 上运行，适合想在本地硬件上完成语音处理的用户。",
+    "fp": "1e0581ddfd5e"
+  },
+  "tt-a1i/archify": {
+    "summary": "Archify 是一个 AI Agent 技能，把一段描述或一个代码库变成可交互的 HTML 图表与单页回答，帮助开发者梳理系统架构、解释技术问题或展示 PR 变更。支持 10 种图表类型、架构诊断和 1080p 视频导出，兼容 Claude Code、Codex、Cursor 及 OpenCode。",
+    "fp": "bd02599412f3"
+  },
+  "pbakaus/impeccable": {
+    "summary": "Impeccable 为 AI 编码代理提供设计指令，解决 AI 生成界面模板化、千篇一律的问题。它包含 24 个命令用于引导和审查界面，内置 62 条确定性规则检测低质设计缺陷，无需额外 API。兼容 Claude Code、Cursor、Copilot 等工具，适合用 AI",
+    "fp": "016964d32f27"
+  },
+  "heygen-com/hyperframes": {
+    "summary": "HyperFrames 是 HeyGen 开源的 AI 视频编辑框架，核心思路是用 HTML 编写并渲染 MP4 视频。提供免费的 Studio 桌面应用，也可接入 Claude Code、Codex 等编程代理。无需 React，适合想用自然语言或代码创建、编辑短视频的创作者。",
+    "fp": "fac4af29e125"
+  },
+  "heydamir/unslop": {
+    "summary": "unslop 是一个给 Claude Code、Codex 和 Google Antigravity 用的插件，把 AI 生成的、带紫色渐变和 emoji 标签等\"AI味\"界面改造成有设计感的界面。它先列出问题再逐屏修改，兼容 Next.js、React、Vue、Svelte、Tailwind 和纯 HTML/CSS，适合用这些技术栈做应用和着陆页的开发者。",
+    "fp": "713eee9b356c"
+  },
+  "anthropics/skills": {
+    "summary": "这是 Anthropic 的 Agent Skills 官方示例仓库，提供 Claude 动态加载的指令文件夹，用于以可重复方式完成文档生成、数据分析等特定任务。含创意、开发、企业工作流等示例及 docx/pdf/pptx/xlsx 文档技能，附技能规范与模板，适合想为 Claude 编写自定义技能的开发者参考。",
+    "fp": "38a6c45c06dc"
+  },
+  "kajisho5/ffmpeg-skill": {
+    "summary": "ffmpeg-skill 为 Claude Code、Cursor、Codex 等编码代理提供本地视频编辑能力。它封装 42 个 FFmpeg 工具，通过 MCP 协议暴露给代理调用，支持剪辑、字幕、响度归一化和平台导出，全程离线、无需 API key。适合不想将素材上传云端的开发者。",
+    "fp": "109124ee32af"
+  },
+  "amosblomqvist/learnharness": {
+    "summary": "LearnHarness 是一个用 AI 代理辅助学习难点的桌面应用。它先测量你当前的理解水平，再规划到目标的依赖路径，逐步教学并配合练习。学习记录以知识图谱形式跨会话保留，数据存在本地，支持 macOS、Windows 和 Linux，开源采用 AGPL-3.0 协议。",
+    "fp": "cbf0dc05f3d3"
   }
 }
