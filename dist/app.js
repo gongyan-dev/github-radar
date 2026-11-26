@@ -68,7 +68,7 @@ function card(p, i) {
 
   const m = el('div', undefined, 'metrics');
   m.append(el('span', '★ ' + fmt(p.stars)));
-  if (p.weekly_stars !== undefined) m.append(el('span', '本周 +' + fmt(p.weekly_stars), 'growth'));
+  if (p.weekly_stars !== undefined) m.append(el('span', (p.weekly_est ? '本周约 +' : '本周 +') + fmt(p.weekly_stars), 'growth'));
   else if (isList() && $('sort').value === 'growth' && p.growth != null)
     m.append(el('span', (p.growth_est ? '7 天约 ' : '7 天 ') + (p.growth < 0 ? '' : '+') + fmt(p.growth), 'growth'));
   else m.append(el('span', isList() && $('sort').value === 'updated' ? ago(p.updated) + '更新' : '创建于 ' + day(p.created), 'muted'));
@@ -89,7 +89,7 @@ function render() {
   }
 
   $('note').textContent =
-    view === 'weekly' ? '近 7 天新增 Star 最多的 10 个项目，由每日 Star 快照相减得出。' :
+    view === 'weekly' ? '全 GitHub 近 7 天新增 Star 最多的 10 个项目（含 Skills），由每日 Star 快照相减得出；跟踪不满 7 天的按天数折算，标「约」。' :
     view === 'archive' ? '每周一保存当时的本周热榜。' :
     view === 'skills' ? `找到 ${fmt(rows.length)} 个 Skills · 打了 agent-skills、claude-skills 等标签或仓库名带 skill 的 GitHub 仓库。` :
     `找到 ${fmt(rows.length)} 个项目 · 来自热门、近期及 AI 方向的 GitHub 仓库。`;

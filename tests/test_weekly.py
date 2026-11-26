@@ -8,7 +8,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / 'scripts'))
 import time
 import urllib.error
 
-from collect import fetch, growth, parse_trending, pick_weekly, rate_limit_wait, record_stars, update_reports
+from collect import fetch, from_graphql, growth, parse_trending, pick_weekly, rate_limit_wait, record_stars, to_project, update_reports
 
 
 def http_error(code, headers):
@@ -77,11 +77,24 @@ class PickWeeklyTests(unittest.TestCase):
         projects = [
             dict(repo('o/big', 1), growth=900),               # 不在 Trending，但实际涨得多
             dict(repo('o/trend', 1), growth=None),            # 只有 Trending 数字
-            dict(repo('o/est', 1), growth=5000, growth_est=True),  # 估算值，不参与
+            dict(repo('o/est', 1), growth=5000, growth_est=True),  # 只有估算值，用它排名并标记
             dict(repo('o/est-trend', 1), growth=5000, growth_est=True),
         ]
         weekly = pick_weekly(projects, [('o/trend', 300), ('o/est-trend', 600)])
-        self.assertEqual([(p['name'], p['weekly_stars']) for p in weekly], [('o/big', 900), ('o/est-trend', 600), ('o/trend', 300)])
+        self.assertEqual([(p['name'], p['weekly_stars']) for p in weekly], [('o/est', 5000), ('o/big', 900), ('o/est-trend', 600), ('o/trend', 300)])
+        self.assertTrue(weekly[0]['weekly_est'])
+        self.assertNotIn('weekly_est', weekly[2])  # 有 Trending 数字时优先用它，不用估算
+
+
+class LookupTests(unittest.TestCase):
+    def test_graphql_node_matches_rest_fields(self):
+        node = {'nameWithOwner': 'o/a', 'url': 'https://github.com/o/a', 'description': None, 'stargazerCount': 12,
+                'createdAt': '2026-11-20T00:00:00Z', 'pushedAt': '2026-11-25T00:00:00Z', 'isArchived': False,
+                'primaryLanguage': None, 'licenseInfo': {'spdxId': 'MIT'},
+                'repositoryTopics': {'nodes': [{'topic': {'name': 'ai'}}]}}
+        p = to_project(from_graphql(node))
+        self.assertEqual((p['name'], p['stars'], p['language'], p['description'], p['topics'], p['license']),
+                         ('o/a', 12, '其他', '暂无介绍', ['ai'], 'MIT'))
 
 
 class TrendingTests(unittest.TestCase):
