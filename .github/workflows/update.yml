@@ -8,13 +8,19 @@ on:
       - 'scripts/**'
       - '.github/workflows/update.yml'
   schedule:
-    - cron: '17 1 * * *'
+    # 每周一北京时间 09:17
+    - cron: '17 1 * * 1'
   workflow_dispatch:
+    inputs:
+      max_summaries:
+        description: 本次最多新生成多少条中文介绍
+        default: '300'
 permissions:
   contents: read
 concurrency:
   group: radar-update
-  cancel-in-progress: false
+  # 新运行自动取消正在跑的旧运行，改完代码推上去不用等旧的跑完
+  cancel-in-progress: true
 jobs:
   # 采集数据、提交历史、打包页面
   build:
@@ -35,6 +41,8 @@ jobs:
           LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
           LLM_EXTRA_BODY: ${{ vars.LLM_EXTRA_BODY }}
+          # 推送代码触发的运行只补 30 条介绍，几分钟内部署；每周一定时运行和手动运行补 300 条
+          MAX_SUMMARIES: ${{ inputs.max_summaries || (github.event_name == 'push' && '30') || '300' }}
       - name: Save history
         run: |
           git config user.name github-actions[bot]

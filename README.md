@@ -1,17 +1,18 @@
 # 开源雷达
 
-静态项目库 + Python 标准库采集 + GitHub Actions 每日更新及每周归档。本周热榜展示 GitHub Trending 周榜中本周获得 Star 最多的 10 个项目。
+静态项目库 + Python 标准库采集 + GitHub Actions 每周一更新并归档。本周热榜展示全 GitHub 近 7 天新增 Star 最多的 10 个项目（含 Skills）。
 
 ## 当前状态
 
-项目库从 GitHub 搜索热门、近期和 AI 仓库；Skills 栏搜索打了 agent-skills、claude-skills、claude-code-skills 标签或仓库名带 skill 的仓库；本周热榜按近 7 天新增 Star 排序（每日 Star 快照存在 `data/stars.json`）。每个项目附一段由大模型根据 README 生成的中文介绍。Sites 发布的是静态版本，不会执行 GitHub Actions。
+项目库从 GitHub 搜索热门、近期和 AI 仓库；Skills 栏搜索打了 agent-skills、claude-skills、claude-code-skills 标签或仓库名带 skill 的仓库；本周热榜按近 7 天新增 Star 排序（Star 快照存在 `data/stars.json`）。每个项目附一段由大模型根据 README 生成的中文介绍。Sites 发布的是静态版本，不会执行 GitHub Actions。
 
 ## 在 GitHub 启用自动更新
 
 1. 将本目录内容推送到自己的 GitHub 仓库（包括 .github）。
 2. Settings → Pages → Source 选择 GitHub Actions。
 3. 在 Actions 中允许工作流运行，手动执行 Collect and publish，确认成功。
-4. 工作流每天北京时间 09:17 采集，周一归档当时的本周热榜 Top 10；周一没跑成功时，本周之后第一次成功运行会补归档。定时任务可能延迟；失败会保留旧数据。
+4. 工作流每周一北京时间 09:17 采集并归档当周热榜 Top 10，补 300 条中文介绍；周一没跑成功时，本周之后第一次成功运行会补归档。定时任务可能延迟；失败会保留旧数据。
+   推送代码触发的运行只补 30 条中文介绍，几分钟内部署；新运行会自动取消正在跑的旧运行。手动运行时可填 max_summaries 指定补多少条。
    工作流分为 build 和 deploy 两个 job，部署偶发失败时可在运行页面只重跑 deploy。
 5. 日常访问 GitHub Pages 的网址；Sites 的当前预览不会随 GitHub Pages 同步。
 
@@ -41,7 +42,7 @@ Python 3.12+，不需要第三方包。
 
 ## 数据口径
 
-本周热榜：在全 GitHub 范围取近 7 天新增 Star 前 10，项目和 Skills 一起排。候选来自 ClickHouse 公开的 GitHub 事件数据集（GH Archive）里近 7 天加星最多的 200 个仓库，加上 GitHub Trending 周榜、项目库和 Skills；事件数据是抽样的，只用来发现候选。每天记录所有候选的 Star 数（`data/stars.json`），用当天减去 7 天前的快照得到确切涨星；跟踪不满 7 天的，优先用 Trending 页面的「stars this week」，否则按天数折算并标「约」。项目库和 Skills 默认也按近 7 天涨星排序，快照不足 7 天时按已有天数折算并标「约」。采集失败时不覆盖旧数据。每周归档一次当时的热榜，避免历史榜单随当前数据变化。
+本周热榜：在全 GitHub 范围取近 7 天新增 Star 前 10，项目和 Skills 一起排。候选来自 ClickHouse 公开的 GitHub 事件数据集（GH Archive）里近 7 天加星最多的 200 个仓库，加上 GitHub Trending 周榜、项目库和 Skills；事件数据是抽样的，只用来发现候选。每次运行记录所有候选的 Star 数（`data/stars.json`），用当天减去 7 天前的快照得到确切涨星；跟踪不满 7 天的，优先用 Trending 页面的「stars this week」，否则按天数折算并标「约」。项目库和 Skills 默认也按近 7 天涨星排序，快照不足 7 天时按已有天数折算并标「约」。采集失败时不覆盖旧数据。每周归档一次当时的热榜，避免历史榜单随当前数据变化。
 
 ## 验证
 
