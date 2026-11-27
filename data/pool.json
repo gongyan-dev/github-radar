@@ -1,4 +1,9 @@
 {
+ "0x1A6C1A9Y/focus-clock": {
+  "added": "2026-11-27",
+  "source": "library",
+  "seen": "2026-11-27"
+ },
  "0xkaka/homeport": {
   "added": "2026-11-20",
   "source": "seed",
@@ -12,12 +17,12 @@
  "23080960124/ibm-spss-statistics": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "23blocks-OS/ai-maestro": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "2dust/v2rayN": {
   "added": "2026-11-06",
@@ -32,22 +37,22 @@
  "4lwayz/portwatch-vi": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "521xueweihan/HelloGitHub": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "996icu/996.ICU": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "AFK-surf/xnulinux": {
   "added": "2026-11-23",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "AFangTeam/PrintLab": {
   "added": "2026-11-14",
@@ -67,17 +72,17 @@
  "AUTOMATIC1111/stable-diffusion-webui": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Adabi0304/studioonepro7-release": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Adkid-Zephyr/oral-paper-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "AgenticOrgLab/ExecOrchestra": {
   "added": "2026-11-18",
@@ -87,7 +92,7 @@
  "Agents365-ai/drawio-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "AgnesAI-Labs/agnes-harness": {
   "added": "2026-11-26",
@@ -97,17 +102,17 @@
  "AgriciDaniel/claude-ads": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "AgriciDaniel/claude-obsidian": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "AgriciDaniel/claude-seo": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "AhmadHassan-BTed/Jantt": {
   "added": "2026-11-06",
@@ -117,27 +122,27 @@
  "Ahmet-Dedeler/awesome-gta6-reverse-engineering": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "AirsupHQ/machine-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Albert-Weasker/niubigeo": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Alishahryar1/free-claude-code": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "AlpacaLabsLLC/skills-for-architects": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "AnIT012/nihongo": {
   "added": "2026-11-21",
@@ -147,52 +152,52 @@
  "Appllama/appllama-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Ar9av/obsidian-wiki": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Arekejoker/qwen21-nsfw-pose-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "AstrBotDevs/AstrBot": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Avaneesh-Inamdar/Stream-Tube-Desktop": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "BaaRai/ARTEX": {
   "added": "2026-11-18",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Basil0879/steam-game-idler": {
   "added": "2026-11-25",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "BayramAnnakov/claude-reflect": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "BehiSecc/awesome-claude-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Belobug/VIctory-Belobug-AMD": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "BigPizzaV3/ClaudeMom": {
   "added": "2026-11-17",
@@ -202,57 +207,57 @@
  "BrianRWagner/ai-marketing-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "BuilderIO/skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
- },
- "Buntee-tech/exitlag-utility": {
-  "added": "2026-11-24",
-  "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "CertificateVerfication/chimera-utility": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Chalarangelo/30-seconds-of-code": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
+ },
+ "ChatAndBuild/conjectures": {
+  "added": "2026-11-27",
+  "source": "library",
+  "seen": "2026-11-27"
  },
  "CherryHQ/cherry-studio": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "ChiefGyk3D/Clouds-Against-Humanity": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "ChromeDevTools/chrome-devtools-mcp": {
   "added": "2026-11-18",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "ClickHouse/ClickHouse": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "CloudAI-X/threejs-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "CocoSgt/riemann-hypothesis-lean": {
   "added": "2026-11-21",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "CoderL98/hghub-plugins": {
   "added": "2026-11-21",
@@ -262,22 +267,22 @@
  "Comfy-Org/ComfyUI": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "ComposioHQ/awesome-claude-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "ConardLi/garden-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "CopilotKit/CopilotKit": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "CopilotKit/OpenBot": {
   "added": "2026-11-06",
@@ -297,7 +302,7 @@
  "CyC2018/CS-Notes": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "CzzzzzzJ/mdldm-maitian": {
   "added": "2026-11-17",
@@ -307,7 +312,7 @@
  "D4Vinci/Scrapling": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "DIYgod/pinky": {
   "added": "2026-11-13",
@@ -317,47 +322,47 @@
  "DUNHKpcc/Claude-Guardian": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Daax116/startall-back-utility": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "DayuanJiang/next-ai-draw-io": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Developing-Gamer/agent-sim": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Devin-AXIS/iPolloWork": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Dhruv2710-hub/cellebrite-ufed": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "DietrichGebert/ponytail": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "DigitalPlatDev/FreeDomain": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Dimillian/Skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Dodaios/ste80-humanizer": {
   "added": "2026-11-14",
@@ -367,7 +372,12 @@
  "Dokploy/dokploy": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
+ },
+ "DoubleGhosty/cool_fox": {
+  "added": "2026-11-27",
+  "source": "library",
+  "seen": "2026-11-27"
  },
  "Doug-218/blender-ai-copilot-forge": {
   "added": "2026-11-14",
@@ -377,12 +387,12 @@
  "DozenTwelve/Papermorph": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Droid-Deck/DroidDeck": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "DuarteSantos8/openGym": {
   "added": "2026-11-26",
@@ -392,32 +402,37 @@
  "EL4CTEO/blender-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "EL4CTEO/fast-anything": {
   "added": "2026-11-22",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
+ },
+ "EL4CTEO/shrink-anything": {
+  "added": "2026-11-27",
+  "source": "library",
+  "seen": "2026-11-27"
  },
  "Ebony-Vinyl/dsh-our-free-model": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "EbookFoundation/free-programming-books": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Edge0-AI/Edge0": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Egonex-AI/Understand-Anything": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "EunChae1110/mmforge-platform": {
   "added": "2026-11-20",
@@ -432,12 +447,12 @@
  "Fei-Craft/DS-Bot": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Fission-AI/OpenSpec": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Fitzner88/microsoft-project": {
   "added": "2026-11-24",
@@ -447,12 +462,12 @@
  "Flagsmith/flagsmith": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "FlashML-org/FreeVideo": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Forward-Future/scarlet": {
   "added": "2026-11-19",
@@ -472,22 +487,22 @@
  "GGBondLab/OpenHC": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Gathin23/cleanyourtv": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Gentleman-Programming/gentle-ai": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Genymobile/scrcpy": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "GiroCrab/GiroCrab": {
   "added": "2026-11-14",
@@ -497,7 +512,7 @@
  "GitHubDaily/GitHubDaily": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Gloridust/WowType": {
   "added": "2026-11-13",
@@ -507,7 +522,7 @@
  "Gobjb/directory-opus-launch": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Goblinmine/homelab-diagram": {
   "added": "2026-11-13",
@@ -517,12 +532,12 @@
  "GoogleChrome/modern-web-guidance": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "GoogleChrome/modern-web-guidance-src": {
   "added": "2026-11-17",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Gosu-x/multimodal-threat-dataset": {
   "added": "2026-11-19",
@@ -532,42 +547,42 @@
  "Graphify-Labs/graphify": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "HKUDS/CLI-Anything": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "HKUDS/DeepTutor": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "HKUSTDial/Supervisor-Skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "HRuiCcc/RuiC-card-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Hack-with-Github/Awesome-Hacking": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "HeyPuter/everything": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Hisn00w/ASu-skills": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "HolyArrs/HolyArrs": {
   "added": "2026-11-13",
@@ -577,12 +592,12 @@
  "Human-Agent-Society/reef": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Hut-hzf/ung220z-tool": {
   "added": "2026-11-18",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "HybridRobotics/supermimic": {
   "added": "2026-11-13",
@@ -602,17 +617,17 @@
  "Illyism/seo-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Imbad0202/academic-research-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Imbad0202/academic-research-skills-codex": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Immortal-Protocols/lastbook": {
   "added": "2026-11-17",
@@ -622,17 +637,17 @@
  "Indigo-0167/universal-game-mod-manager": {
   "added": "2026-11-25",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "ItsNotRexed/Hookshot": {
   "added": "2026-11-23",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "JCodesMore/ai-website-cloner-template": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "JDhruv14/line-art-animation": {
   "added": "2026-11-13",
@@ -642,67 +657,67 @@
  "Jakeschincariol/arena-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Jakeschincariol/chatgpt-youtube-agent-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Jakeschincariol/console-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Jakeschincariol/day-trader-skill": {
   "added": "2026-11-09",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Jakeschincariol/founder-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Jakeschincariol/instagram-agent-skill": {
   "added": "2026-11-14",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Jakeschincariol/linkedin-agent-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Jakeschincariol/replica-skill": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Jakeschincariol/trader-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Jakeschincariol/youtube-agent-skill": {
   "added": "2026-11-20",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "JayPokale/Chisle": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "JayantDevkar/claude-code-karma": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Jeffallan/claude-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "JenkinWoo/sheeridVerify": {
   "added": "2026-11-13",
@@ -712,7 +727,7 @@
  "JetBrains/thinkrail": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "JiaFeiMiao-K-Cat/DiscImageStudio": {
   "added": "2026-11-06",
@@ -722,7 +737,7 @@
  "JimLiu/baoyu-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "JimLiu/open-artifact": {
   "added": "2026-11-24",
@@ -732,22 +747,22 @@
  "JourniOne-ai/JourniOne-Planning-Skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "JuliusBrussee/caveman": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "JuneYaooo/gpt-image2-ppt-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "JuneYaooo/nihaisha-nishi-tcm": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "JuneYaooo/rea-toon": {
   "added": "2026-11-21",
@@ -757,37 +772,37 @@
  "JuneYaooo/rea-video": {
   "added": "2026-11-11",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "JuneYaooo/social-account-doctor": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "JuneYaooo/teacher-to-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "JustVugg/colibri": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "K-Dense-AI/scientific-agent-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "KKKKhazix/AIHOT": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "KKKKhazix/khazix-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Kianuni/Camlo": {
   "added": "2026-11-21",
@@ -799,20 +814,25 @@
   "source": "seed",
   "seen": "2026-11-26"
  },
+ "Klotzkette/claude-fuer-deutsches-recht": {
+  "added": "2026-11-27",
+  "source": "skills",
+  "seen": "2026-11-27"
+ },
  "KnifeLemon/Filee": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Kong/kong": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "LAION-AI/Open-Assistant": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "LAMDA-NeSy/Research-Starter-Kit": {
   "added": "2026-11-06",
@@ -822,7 +842,7 @@
  "LMIXR/CV_Deployment_skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "LNPANDY/HGhub-MacOS-iOS-Version": {
   "added": "2026-11-14",
@@ -832,57 +852,57 @@
  "LNPANDY/NX2Apple": {
   "added": "2026-11-12",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "LadybirdBrowser/ladybird": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Lee-xeo/Claude-Cage": {
   "added": "2026-11-19",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "LemonFace0309/charles-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Lemxy/WinRust": {
   "added": "2026-11-20",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Leonxlnx/taste-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "LibreChat-AI/LibreChat": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Likely7/Veyra-NRVideo": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "LooperSalty/AnyXboxX": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Louis-CFM/coucou": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "LukasNiessen/terrashark": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "MBPERFORMANCE/adobe-lightroom-full": {
   "added": "2026-11-24",
@@ -907,32 +927,32 @@
  "Mahanaicoach/google-maps-scraper-kit": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Mak5er/AirCard": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Marvisak/VIctory": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Master-cai/Research-Paper-Writing-Skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "MemPalace/mempalace": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "MengTo/Skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "MengTo/threeui": {
   "added": "2026-11-06",
@@ -952,47 +972,47 @@
  "MiniMax-AI/skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Minireel/HGhub": {
   "added": "2026-11-10",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Moh4696/cinematic-skill": {
   "added": "2026-11-14",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Moh4696/inkworks-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Moh4696/open-3d-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Motionsites-AI/claude-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "MrBongoC/ai-iso-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "N-tongxue/norman-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "NVIDIA/SkillSpector": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "NVIDIA/auto-ontology": {
   "added": "2026-11-13",
@@ -1002,37 +1022,37 @@
  "NVIDIA/skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "NandhaKishorM/laya": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Natively-AI-assistant/natively-cluely-ai-assistant": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Nebula4207/av1-video-encoder-gui": {
   "added": "2026-11-25",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "NevaMind-AI/memU": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "NiazMorshed2007/reanimate": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Niko1221/Strata": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Noniv/abyssal-garden": {
   "added": "2026-11-15",
@@ -1042,47 +1062,52 @@
  "NousResearch/hermes-agent": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Nutlope/hallmark": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Oldcircle/geo-sleuth": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "OneMoh/html-explainer": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "OpenMontageInc/OpenMontage": {
   "added": "2026-11-08",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "OpenSenseNova/SenseNova-Skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Orchestra-Research/AI-Research-SKILLs": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "OthmanAdi/planning-with-files": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Panniantong/Agent-Reach": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
+ },
+ "Pixel679-cmyk/windows-titlebar-blur-customizer": {
+  "added": "2026-11-27",
+  "source": "clickhouse",
+  "seen": "2026-11-27"
  },
  "PlanetCraneInterface/autodesk-revit": {
   "added": "2026-11-14",
@@ -1092,42 +1117,52 @@
  "Predidit/Kazumi": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "ProjectLeonidaL/leonida": {
   "added": "2026-11-25",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "QingYunA/answer-me-with-html": {
   "added": "2026-11-11",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "R0Y00/Xbox2Windows": {
   "added": "2026-11-22",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
+ },
+ "R44VC0RP/dashsplat": {
+  "added": "2026-11-27",
+  "source": "library",
+  "seen": "2026-11-27"
  },
  "RMvdesi/obsidian-prism": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "RSSNext/Folo": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Redwannn/avid-media-composer": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
+ },
+ "Reukix/Reloc": {
+  "added": "2026-11-27",
+  "source": "library",
+  "seen": "2026-11-27"
  },
  "Rieranthony/product-film-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Robbyant/lingbot-touch": {
   "added": "2026-11-14",
@@ -1142,17 +1177,17 @@
  "RoutineMiku/apkstart": {
   "added": "2026-11-17",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Ryze-AI-Adgent/open-seo-mcp-skills": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "SELAMUMESHESHA/dxo-photolab-10": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "ScottDuncanAI/PID-to-Knowledge-Graph": {
   "added": "2026-11-14",
@@ -1162,22 +1197,22 @@
  "ScrapeCreators/social-media-research-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Shubhamsaboo/awesome-llm-apps": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Significant-Gravitas/AutoGPT": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "SillyTavern/SillyTavern": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Simon3Sarkis/super-odyssey-pc-recomp": {
   "added": "2026-11-14",
@@ -1187,17 +1222,17 @@
  "Sleepy-Avacado/FigGenie-paper-diagram-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "SnailSploit/Claude-Red": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Snailclimb/JavaGuide": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Speedydx/delta-force-trainer": {
   "added": "2026-11-24",
@@ -1207,7 +1242,7 @@
  "StewdioAI/stewdio-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "StormBrawlerSack/legwork-osint-ai-investigator": {
   "added": "2026-11-17",
@@ -1217,7 +1252,7 @@
  "SulphurS16/Regaliant": {
   "added": "2026-11-25",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "TarantulaCorrect/GitHub-Copilot-app": {
   "added": "2026-11-15",
@@ -1227,7 +1262,7 @@
  "TauricResearch/TradingAgents": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Tencent/LoopForge": {
   "added": "2026-11-26",
@@ -1237,7 +1272,7 @@
  "Tencent/WeKnora": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "TensaikunYT/Videohub": {
   "added": "2026-11-16",
@@ -1252,17 +1287,17 @@
  "The-Vibe-Company/quivr": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "TheAlgorithms/Python": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "ThreatDefence/agentic-attack-detections": {
   "added": "2026-11-23",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "TomyJan/SnowLuma": {
   "added": "2026-11-14",
@@ -1287,7 +1322,7 @@
  "Tracer-Cloud/opensre": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "TrapBladesmith/GitHub-Copilot-app": {
   "added": "2026-11-15",
@@ -1312,7 +1347,7 @@
  "TubeLabHQ/youtube-research-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "TurquoiseConsultant/GitHub-Copilot-app": {
   "added": "2026-11-15",
@@ -1327,7 +1362,7 @@
  "Twigpine/openclaude": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "TypeTyrantScheme/Gemini-Config-Checker-": {
   "added": "2026-11-16",
@@ -1342,22 +1377,22 @@
  "Umbra9179/clipboard-history-manager-windows": {
   "added": "2026-11-25",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "UnderleveledBuilder/awesome-short-drama-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "UnderleveledBuilder/awesome-social-media-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Urvee003/bloxshade-for-roblox": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "ValidatorStack/solana-vigil": {
   "added": "2026-11-14",
@@ -1367,12 +1402,12 @@
  "VaneAi888/vane-gpt-image-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "VectifyAI/PageIndex": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "VenkateshGorityala/voicemod-audio-modifier": {
   "added": "2026-11-24",
@@ -1382,7 +1417,7 @@
  "VikashLoomba/copilot-mcp": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "VillageExecutive/ultra-edit": {
   "added": "2026-11-14",
@@ -1392,7 +1427,7 @@
  "Vincentwei1021/video-shotcraft": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Violetnyudress/Gemini-Config-Checker-": {
   "added": "2026-11-16",
@@ -1412,17 +1447,17 @@
  "VoltAgent/awesome-agent-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "VoltAgent/awesome-design-md": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "VoltAgent/awesome-openclaw-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "VortexHostFeel/Gemini-Config-Checker-": {
   "added": "2026-11-16",
@@ -1442,12 +1477,12 @@
  "Weizhena/Deep-Research-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "WenyuChiou/awesome-agentic-ai-zh": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "WerewolfEmuHub/Gemini-Config-Checker-": {
   "added": "2026-11-16",
@@ -1469,10 +1504,15 @@
   "source": "seed",
   "seen": "2026-11-26"
  },
+ "WhiteBr1ck/agy-powertools": {
+  "added": "2026-11-27",
+  "source": "clickhouse",
+  "seen": "2026-11-27"
+ },
  "WhiteTowerAI/ohmygame": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "WindGatorRise37/Gemini-Config-Checker-": {
   "added": "2026-11-16",
@@ -1517,27 +1557,27 @@
  "XiaoMaColtAI/math-modeling-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "XiaoYouChR/Ghost-Downloader-3": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "XinaTian/MROffice": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "YTruman/better-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "YaoApp/yao": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "YellowLaborerMarket/Gemini-Config-Checker-": {
   "added": "2026-11-16",
@@ -1547,57 +1587,57 @@
  "Yuan1z0825/nature-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Yummy2288/fonetrans-desktop-utility": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "Zagitta/gpu-unlock": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "ZhuLinsen/daily_stock_analysis": {
   "added": "2026-11-14",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "ZiChuanLan/freebie-radar": {
   "added": "2026-11-15",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "ZigZagBoi1/ScarlettPort": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "a2ui-project/a2ui": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "a5c-ai/babysitter": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "aaif-goose/goose": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "aathreynair22-bit/wifi-password-tester": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "abdiraimov-otabek/dashboard-design-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "abj-a11y/landr-plugin-bundle": {
   "added": "2026-11-25",
@@ -1612,17 +1652,17 @@
  "addyosmani/agent-skills": {
   "added": "2026-11-15",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "addyosmani/web-quality-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "aden-hive/hive": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "adriadam10/mkw-recomp": {
   "added": "2026-11-13",
@@ -1632,12 +1672,12 @@
  "affaan-m/ECC": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "ag-ui-protocol/ag-ui": {
   "added": "2026-11-19",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "agentes-chat/agentes-chat": {
   "added": "2026-11-13",
@@ -1647,127 +1687,127 @@
  "agentskills/agentskills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "agiwhitelist/auteur": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "agno-agi/agno": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "ahujasid/mcp-for-blender": {
   "added": "2026-11-15",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "ai-job-search-dev/ai-job-search": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "airbnb/javascript": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "alchaincyf/darwin-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "alchaincyf/elon-musk-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "alchaincyf/feynman-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "alchaincyf/huashu-art-motion": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "alchaincyf/huashu-design": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "alchaincyf/huashu-excel": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "alchaincyf/huashu-mac-use": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "alchaincyf/huashu-md-html": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "alchaincyf/huashu-motion": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "alchaincyf/huashu-report": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "alchaincyf/huashu-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "alchaincyf/karpathy-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "alchaincyf/munger-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "alchaincyf/nuwa-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "alchaincyf/steve-jobs-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "alchaincyf/trump-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "alchaincyf/x-mentor-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "alchaincyf/zhangxuefeng-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "alesha-pro/llm.asm": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "alexeyw/lot-map": {
   "added": "2026-11-13",
@@ -1777,47 +1817,47 @@
  "alexgreensh/anidoodle": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "alexyc9381/court-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "alexyc9381/hiring-panel-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "ali7080/adobe-air-sdk": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "alibaba/open-code-review": {
   "added": "2026-11-17",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "alibaba/zvec": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "alirezarezvani/claude-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "alookai/alook": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "amElnagdy/delegate-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "amagine-ai/Amagine3D": {
   "added": "2026-11-06",
@@ -1832,7 +1872,7 @@
  "amosblomqvist/learnharness": {
   "added": "2026-11-08",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "anasarfat2024-ui/adobe-substance-3d": {
   "added": "2026-11-24",
@@ -1842,22 +1882,22 @@
  "anbeime/skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "andreasbm/web-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "android/skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "anefzaoui/misterdownloadmanager": {
   "added": "2026-11-12",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "angela-cook-1988/vegas-pro-23-desktop": {
   "added": "2026-11-16",
@@ -1867,37 +1907,37 @@
  "anhao/ai-pose-gallery-zh": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "anomalyco/hex": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "anomalyco/opencode": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "anomalyco/rune": {
   "added": "2026-11-11",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "antfu/skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "antfu/skills-pack": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "anthropics/claude-code": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "anthropics/claude-quickstarts": {
   "added": "2026-11-15",
@@ -1907,17 +1947,17 @@
  "anthropics/skills": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "antigravity-cn-community/Antigravity-Chinese-Localization": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "antonbabenko/terraform-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "anywhere-labs/dsh-desktop": {
   "added": "2026-11-06",
@@ -1937,7 +1977,7 @@
  "appariciojunior/video-editor-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "apple/creator-studio-doc-format": {
   "added": "2026-11-21",
@@ -1947,7 +1987,7 @@
  "arjun988/blender-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "aronhy/pibrowse": {
   "added": "2026-11-14",
@@ -1957,32 +1997,32 @@
  "artemnovitckii/claude-animation-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "arvindrk/extract-design-system": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "asgeirtj/system_prompts_leaks": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "atuizz/posewear": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "avatarmanz/VIctory-7900XTX": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "avelino/awesome-go": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "awesome-dsh-plugin/awesome-dsh-plugin": {
   "added": "2026-11-06",
@@ -1992,27 +2032,27 @@
  "awesome-selfhosted/awesome-selfhosted": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "aws/aws-emulator": {
   "added": "2026-11-14",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "axtonliu/axton-obsidian-visual-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "ayghri/i-have-adhd": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "ayux777/metatrader-5-bot": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "azure-teal-slope/windows-optimizer-desktop": {
   "added": "2026-11-16",
@@ -2027,17 +2067,17 @@
  "babysor/MockingBird": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "backnotprop/plannotator": {
   "added": "2026-11-19",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "backnotprop/pstack": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "baiblinocun1986/blender-ai-copilot-hub": {
   "added": "2026-11-14",
@@ -2047,7 +2087,7 @@
  "baidu-netdisk/bdpan-storage": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "bea4dev/shoji-bar-4": {
   "added": "2026-11-14",
@@ -2072,7 +2112,7 @@
  "benjitaylor/skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "benzgasfuncring197110/blender-ai-copilot-bridge": {
   "added": "2026-11-15",
@@ -2082,7 +2122,7 @@
  "bergside/awesome-design-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "berkantay/gpucanvas": {
   "added": "2026-11-14",
@@ -2092,7 +2132,7 @@
  "bikini/minecraft2shell": {
   "added": "2026-11-25",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "bilawalsidhu/gods-eye-view": {
   "added": "2026-11-06",
@@ -2102,22 +2142,22 @@
  "billy-enrizky/openbrowser-ai": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "bitwize-music-studio/claude-ai-music-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "blader/humanizer": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "blakeblackshear/frigate": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "blue0x1/EmuFive": {
   "added": "2026-11-14",
@@ -2127,12 +2167,12 @@
  "bmad-code-org/BMAD-METHOD": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "bojieli/ai-agent-book": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "bojieli/ai-infra-book": {
   "added": "2026-11-06",
@@ -2147,17 +2187,12 @@
  "boringmarketer/boring-marketing-skills": {
   "added": "2026-11-18",
   "source": "seed",
-  "seen": "2026-11-26"
- },
- "boykopovar/AnyBox": {
-  "added": "2026-11-25",
-  "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "boykopovar/AnyPS5": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "bradburns2001/topaz-video-ai-desktop": {
   "added": "2026-11-16",
@@ -2172,7 +2207,7 @@
  "brcly/TuxBox": {
   "added": "2026-11-25",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "brianbell-x/codehygiene": {
   "added": "2026-11-21",
@@ -2197,7 +2232,7 @@
  "browser-act/skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "browser-use/browser-use": {
   "added": "2026-11-06",
@@ -2207,17 +2242,17 @@
  "browser-use/jev-ultrafast": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "browserbase/skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "brycewang-stanford/Auto-Empirical-Research-Skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "bvvst/intern": {
   "added": "2026-11-14",
@@ -2227,37 +2262,37 @@
  "bytedance/deer-flow": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "caldoai/skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "career-ops-hq/career-ops": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "carnot-tech/jinba-consulting-pptx-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "caru-ini/stack-diagram": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "cathrynlavery/diagram-design": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "ccch1mneyyy/dsh-Go": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "ccch1mneyyy/dsh-TUI": {
   "added": "2026-11-06",
@@ -2267,27 +2302,27 @@
  "cdyforever/how-to-live-better": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "chanke17/KuroCat": {
   "added": "2026-11-25",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "charlie947/motion-graphics-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "charlie947/social-media-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "cheaper-inference/OmniRoute": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "chen08209/FlClash": {
   "added": "2026-11-26",
@@ -2297,7 +2332,7 @@
  "chengyi-ai/cy-carousel-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "chuanqisun/spaceship": {
   "added": "2026-11-18",
@@ -2307,22 +2342,22 @@
  "ciembor/agent-rules-books": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "citrolabs/ego-lite": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "cjpais/Handy": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "clash-verge-rev/clash-verge-rev": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "cleidsonmachadoalves45-byte/adobe-audition": {
   "added": "2026-11-24",
@@ -2332,67 +2367,72 @@
  "cloudflare/security-audit-skill": {
   "added": "2026-11-13",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "cloveric/claude-drawing-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "code-yeongyu/oh-my-openagent": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "codeaashu/claude-code": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "codecrafters-io/build-your-own-x": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
+ },
+ "colbymchenry/codegraph": {
+  "added": "2026-11-27",
+  "source": "clickhouse",
+  "seen": "2026-11-27"
  },
  "coldteadotai/abide": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "coldteadotai/pr-lens": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "composio-community/awesome-claude-plugins": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "composio-community/awesome-codex-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "continuedev/continue": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "cookiy-ai/sell-sessions-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "coreyhaines31/marketingskills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "cr4zyp4ul/quicken-deluxe": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "crafter-station/Muelle": {
   "added": "2026-11-21",
@@ -2404,20 +2444,15 @@
   "source": "seed",
   "seen": "2026-11-26"
  },
- "creekleaderintroduce/autocad": {
-  "added": "2026-11-26",
-  "source": "seed",
-  "seen": "2026-11-26"
- },
  "crewAIInc/crewAI": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "crhywun/g1-acq": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "crmne/spotifast": {
   "added": "2026-11-06",
@@ -2432,7 +2467,7 @@
  "cursor/plugins": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "cyb3rl00m/prune-debloater": {
   "added": "2026-11-24",
@@ -2442,12 +2477,12 @@
  "czlonkowski/n8n-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "dabingfy-dot/solo-to-team-skills": {
   "added": "2026-11-13",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "dagn3009-cyber/sylenth-1-configuration-utility": {
   "added": "2026-11-24",
@@ -2457,32 +2492,32 @@
  "danielmiessler/Fabric": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "danielwh2/sprite-stacking": {
   "added": "2026-11-22",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "darthvader097br-ctrl/acronis-standalone-bundle": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "dataelement/dsh-desktop": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "davepoon/buildwithclaude": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "davidondrej/skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "davidondrej/superbot": {
   "added": "2026-11-19",
@@ -2492,32 +2527,32 @@
  "davila7/claude-code-templates": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "dbeaver/dbeaver": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "deanpeters/Product-Manager-Skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "debpalash/VoiceStudio": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "decebals/claude-code-java": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "deepseek-ai/DeepInfer": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "deepseek-ai/chat-demo": {
   "added": "2026-11-14",
@@ -2527,12 +2562,12 @@
  "deepseek-ai/deepseek-harness": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "deepseek-ai/dsh-superagent-prototype": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "designfuchen/worldforge": {
   "added": "2026-11-14",
@@ -2542,7 +2577,7 @@
  "deterministic-machines/deslop-please": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "devvmhq/devvm": {
   "added": "2026-11-13",
@@ -2557,12 +2592,12 @@
  "diggerhq/opencomputer": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "dillithdillith4-cell/autodesk-cfd": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "djyde/dalibre": {
   "added": "2026-11-14",
@@ -2572,47 +2607,47 @@
  "dmmulroy/anti-slop": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "docling-project/docling": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "dongarenikhilit047-star/portfolio-rebalancer": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "donnemartin/system-design-primer": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "dotnet/skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "dream-num/univer": {
   "added": "2026-11-19",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "dreammis/social-auto-upload": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "drillryte/easy-worship": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "drost-ai/tinker-ai-skill": {
   "added": "2026-11-14",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "dsh-market/dsh-market": {
   "added": "2026-11-06",
@@ -2622,7 +2657,7 @@
  "duoduoler-ops/Table-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "duwqijlk/google-trial-tool": {
   "added": "2026-11-20",
@@ -2637,27 +2672,27 @@
  "duyunzhoudyz/dyz-gongwen-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "duyunzhoudyz/dyz-med-paper-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "earendil-works/pi": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "eclipse-theia/theia": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "egoist/mygo": {
   "added": "2026-11-16",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "egoist/tinytraffic": {
   "added": "2026-11-14",
@@ -2667,27 +2702,27 @@
  "eigent-ai/eigent": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "elayadesign/ai-design-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "elder-plinius/CL4R1T4S": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "electron/electron": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "elementalsouls/Claude-BugHunter": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "elie222/rakazo": {
   "added": "2026-11-06",
@@ -2702,72 +2737,77 @@
  "emilkowalski/skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "epoko77-ai/im-not-ai": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "ericosiu/ai-marketing-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "erkamyaman/rust-anything": {
   "added": "2026-11-18",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "erkamyaman/safe-anything": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "ersinkoc/phonebox": {
   "added": "2026-11-14",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "eternity4719/HowToLiveBetter": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "eternityspring/reelbench-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "eternityspring/shuohao-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "everyinfra/seo-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "excalidraw/excalidraw": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "experientiallabs/experiential": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "expo/skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "f/prompts.chat": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
+ },
+ "fahniazz/claude-shorts-skills": {
+  "added": "2026-11-27",
+  "source": "skills",
+  "seen": "2026-11-27"
  },
  "failsafe-security/artex": {
   "added": "2026-11-14",
@@ -2782,17 +2822,17 @@
  "farion1231/cc-switch": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "fastapi/fastapi": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "fatihaydost/brand-identity-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "fengyiqicoder/awesome-fable-5.2": {
   "added": "2026-11-14",
@@ -2812,12 +2852,12 @@
  "firecrawl/firecrawl": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "flutter/flutter": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "forcequitOS/worse_query": {
   "added": "2026-11-14",
@@ -2827,7 +2867,7 @@
  "foryourhealth111-pixel/Vibe-Skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "free-dam-man/cloud-exit-node-deploy": {
   "added": "2026-11-20",
@@ -2837,7 +2877,7 @@
  "freeCodeCamp/freeCodeCamp": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "fumbdendade19718/blender-ai-copilot-desk": {
   "added": "2026-11-15",
@@ -2847,7 +2887,7 @@
  "fxceless/victory-fork": {
   "added": "2026-11-25",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "gabrielbuzziv/emissor-nfse-nacional": {
   "added": "2026-11-14",
@@ -2857,72 +2897,77 @@
  "gaichayoubb-hub/directory-opus-utility": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "gamedev-skills/awesome-gamedev-agent-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "garrytan/gstack": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
+ },
+ "gary23w/f-ck_data_brokers": {
+  "added": "2026-11-27",
+  "source": "library",
+  "seen": "2026-11-27"
  },
  "gcpdev/llm-council-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "geekjourneyx/md2wechat-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "gepa-ai/gepa": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "getify/You-Dont-Know-JS": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "ggml-org/llama.cpp": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "github/awesome-copilot": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "github/gitignore": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "github/spec-kit": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "giuseppe-trisciuoglio/developer-kit": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "glitternetwork/pinme": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "gnipbao/minimax-h3-video-reverse-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "gokayfem/image-to-sculpt": {
   "added": "2026-11-14",
@@ -2932,7 +2977,7 @@
  "golang/go": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "google-deepmind/mujoco": {
   "added": "2026-11-15",
@@ -2942,37 +2987,37 @@
  "google-deepmind/science-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "google-gemini/gemini-api-cli": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "google-gemini/gemini-cli": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "google-gemini/gemini-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "google-labs-code/stitch-skills": {
   "added": "2026-11-23",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "google-research/google-research": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "google-research/harness2": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "google-research/paper-orchestra": {
   "added": "2026-11-26",
@@ -2987,27 +3032,27 @@
  "google/elephant-goldfish-model": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "google/skills": {
   "added": "2026-11-13",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "googleworkspace/cli": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "gosom/google-maps-scraper": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "greensock/gsap-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "guillaumemeyer/watermarks-remover": {
   "added": "2026-11-06",
@@ -3017,37 +3062,37 @@
  "gulucaptain/Best-Paper-Writing-Skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "hacksider/Deep-Live-Cam": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "haddock-development/claude-reflect-system": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "hariachayan5-dotcom/sp-flash-tool": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "harry0703/MoneyPrinterTurbo": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "havenicec/google-qr-sms-helper": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "haydenschmitty/floorplan": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "haziqahmedqasmi/PeakCut": {
   "added": "2026-11-16",
@@ -3057,42 +3102,42 @@
  "headroomlabs-ai/headroom": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "heep-ai/restaurant-ai-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "heilcheng/awesome-agent-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "herdrdev/herdr": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "hesreallyhim/awesome-claude-code": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "hexiaofeier/hehe-industry-research-skill-pack": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "heydamir/unslop": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "heygen-com/hyperframes": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "higurashi-ai/Haru": {
   "added": "2026-11-14",
@@ -3107,12 +3152,12 @@
  "himself65/finance-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "hiyouga/LlamaFactory": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "hmjz100/LinkSwift": {
   "added": "2026-11-26",
@@ -3132,22 +3177,22 @@
  "hpcaitech/ColossalAI": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "htdt/godogen": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "htmlstreamofficial/preline": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "huami1314/GestaltX": {
   "added": "2026-11-19",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "huawei-csl/MACaQ": {
   "added": "2026-11-14",
@@ -3157,7 +3202,7 @@
  "huaxialucaicaizi/ai-startup-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "huggingface/pybot": {
   "added": "2026-11-17",
@@ -3167,47 +3212,47 @@
  "huggingface/skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "huggingface/transformers": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "hugohe3/ppt-master": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "humanlayer/skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "hypnguyen1209/offensive-claude": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "iamajmeena/neonclipping": {
   "added": "2026-11-20",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "iart-ai/motion-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "ibelick/ui-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "ifixai-ai/iFixAi": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "igawa6/peanuts-native": {
   "added": "2026-11-19",
@@ -3217,12 +3262,12 @@
  "ikaijua/Awesome-AITools": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "ilyautov/humanizer-ru": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "imnotsharingmyname/pcportastrobot": {
   "added": "2026-11-14",
@@ -3232,77 +3277,77 @@
  "imxieyi/Kernarium": {
   "added": "2026-11-14",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "infiniflow/ragflow": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "internet-court/internet-court-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "iptv-org/iptv": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "irinabuht12-oss/marketing-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "jabrena/plinth": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "jackfrued/Python-100-Days": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "jakubkrehel/skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "jamiepine/voicebox": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "janestreet/agent_skills": {
   "added": "2026-11-12",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "jangviktor-web/nihaixia": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "jaredpalmer/kev": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "jasonbitsmith/muse-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "jeecgboot/JeecgBoot": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "jev-chat/jev-chat-jarvis": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "jhaizhou-ops/S2Arm": {
   "added": "2026-11-13",
@@ -3312,27 +3357,27 @@
  "jingyaogong/minimind": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "jiweiyeah/Skills-Manager": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "jlevy/the-art-of-command-line": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "jnMetaCode/superpowers-zh": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "joe-shenouda/awesome-cyber-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "johnlindquist/pi-emphasis": {
   "added": "2026-11-21",
@@ -3342,12 +3387,12 @@
  "jomicat1989-dotcom/rust-external-trainer-tool": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "jorgezaltoo-design/microsoft-visio": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "joshpuckett/allo": {
   "added": "2026-11-17",
@@ -3362,97 +3407,102 @@
  "jtydhr88/screenwriting-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "jub0t/Concat": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "juliobsz/skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "juniordroid/better-discord-client": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "justxor/claude-code-pro-course": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "jwasham/coding-interview-university": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "kaankiziltug/logo-design-skill": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "kai415-debug/ffmpeg-video-audio-converter": {
   "added": "2026-11-25",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "kajisho5/ffmpeg-skill": {
   "added": "2026-11-17",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "kaomei/stickman-video-director": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "karanb192/awesome-claude-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "kazukinagata/shinkoku": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "kerpopule/hermes-jev-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "keskinonur/claude-code-ios-dev-guide": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "kharmanskyi/open-steps": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "khoj-ai/khoj": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "kingcharleslzy-ai/dsh-purge": {
   "added": "2026-11-10",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
+ },
+ "kitze/skillbox": {
+  "added": "2026-11-27",
+  "source": "skills",
+  "seen": "2026-11-27"
  },
  "koala73/worldmonitor": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "kociden/sakurai-skill": {
   "added": "2026-11-14",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "kolbicz/WQFiles": {
   "added": "2026-11-13",
@@ -3462,12 +3512,12 @@
  "komi-store/komi-store": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "krahets/hello-algo": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "krezio/roomy": {
   "added": "2026-11-18",
@@ -3477,67 +3527,67 @@
  "krillinai/OpenCreator": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "kubernetes/kubernetes": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "kubesphere/kubesphere": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "kunkundi/crossdesk": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "kyy-logs/code-review-gate-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "l0ng-ai/openidea": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "labuladong/fucking-algorithm": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "langchain-ai/langchain": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "langchain-ai/langgraph": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "langflow-ai/langflow": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "langgenius/dify": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "laolaoshiren/claude-code-skills-zh": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "larashero3-dotcom/lieflat-charts": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "larashero3-dotcom/lieflat-less-ai-tone": {
   "added": "2026-11-06",
@@ -3547,12 +3597,12 @@
  "latent-spaces/brag": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "leanprover-community/riemann-hypothesis": {
   "added": "2026-11-22",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "lebrowndnasty-hash/ai-app-builder": {
   "added": "2026-11-24",
@@ -3562,12 +3612,12 @@
  "lemomo-ai/lemo-opuscar": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "lencx/ChatGPT": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "leostera/git-twig": {
   "added": "2026-11-21",
@@ -3577,7 +3627,7 @@
  "levnikolaevich/claude-code-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "lexmount/moli": {
   "added": "2026-11-06",
@@ -3587,17 +3637,22 @@
  "libracoder/kiri": {
   "added": "2026-11-16",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "libukai/awesome-agent-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "lijigang/ljg-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
+ },
+ "linjiejim/ohmwork": {
+  "added": "2026-11-27",
+  "source": "library",
+  "seen": "2026-11-27"
  },
  "linknimiball1974/ai-texture-forge": {
   "added": "2026-11-14",
@@ -3617,7 +3672,7 @@
  "liustack/modlens": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "liuxiaogang-com/desktop-icon-billiards": {
   "added": "2026-11-14",
@@ -3637,12 +3692,12 @@
  "ljagiello/ctf-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "lnkiai/m3e-canvas": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "lobehub/lobe-mygo": {
   "added": "2026-11-14",
@@ -3652,12 +3707,12 @@
  "localsend/localsend": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "lsernau/grh-lean": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "lukendeasy/open-diagram": {
   "added": "2026-11-24",
@@ -3677,12 +3732,17 @@
  "ly05010419/MacNativeGames": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
+ },
+ "magnitudedev/magnitude": {
+  "added": "2026-11-27",
+  "source": "clickhouse",
+  "seen": "2026-11-27"
  },
  "majiayu000/spellbook": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "makepad/relax": {
   "added": "2026-11-14",
@@ -3702,7 +3762,7 @@
  "marketingjuliancongdanh79-pixel/skill-generator": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "maslah44/cinebench-benchmark": {
   "added": "2026-11-24",
@@ -3712,47 +3772,52 @@
  "masonmosen/muse-video-prompt-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "massgravel/Microsoft-Activation-Scripts": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
+ },
+ "mattpocock/cookout": {
+  "added": "2026-11-27",
+  "source": "library",
+  "seen": "2026-11-27"
  },
  "mattpocock/skills": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "mcncarl/yichen-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "mdiri-ai/SoduWork": {
   "added": "2026-11-23",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "me2resh/apexyard": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "meilisearch/meilisearch": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "melonjs/melonJS": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "mem0ai/mem0": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "memoryswordsmanlaud/fieldkit-awesome-osint-list": {
   "added": "2026-11-18",
@@ -3767,92 +3832,92 @@
  "meta/astryx": {
   "added": "2026-11-15",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "mex-memory/mex": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "michael-denyer/pstack-claude": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "microsoft/AI-For-Beginners": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "microsoft/PowerToys": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "microsoft/SkillOpt": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "microsoft/TokenEconomizer": {
   "added": "2026-11-16",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "microsoft/generative-ai-for-beginners": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "microsoft/markitdown": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "microsoft/power-platform-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "microsoft/vscode": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "mikehasa/golive-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "mikubaka88/CCFA-Skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "milind-soni/OpenMausBot": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "mindsdb/mindshub": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "minorun365/minorun-marp-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "miqdadbadjuber/anti-slop": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "mirzaaghazadeh/iphone-duo-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "mit-han-lab/pear": {
   "added": "2026-11-16",
@@ -3862,22 +3927,22 @@
  "mizorewww/laya-mlx": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "mizzlelover/gongwen-gbt9704-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "mjmirza/app-store-compliance": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "mliu98/awesome-human-distillation": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "monid-ai/monid": {
   "added": "2026-11-06",
@@ -3887,72 +3952,72 @@
  "morganlinton/BeautifulRust": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "morluto/rea": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "mrhlaingbwardev/agentic-hacking-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "msitarzewski/agency-agents": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "mudler/LocalAI": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "mukul975/Anthropic-Cybersecurity-Skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "multica-ai/andrej-karpathy-skills": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "multica-ai/multica": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "muratcankoylan/Agent-Skills-for-Context-Engineering": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "mutonby/openshorts": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "mvanhorn/last30days-skill": {
   "added": "2026-11-20",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "mvschwarz/openrig": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "mxyhi/ok-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "mylc2010/sci-translation-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "n4ze3m/tiny-voca": {
   "added": "2026-11-16",
@@ -3962,62 +4027,67 @@
  "n8n-io/n8n": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "n8n-io/nod": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "nWave-ai/nWave": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "nanocoai/nanoclaw": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "netdata/netdata": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "nexscope-ai/eCommerce-Skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "nextlevelbuilder/ui-ux-pro-max-skill": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "nexu-io/open-design": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
+ },
+ "nexu-io/opengame": {
+  "added": "2026-11-27",
+  "source": "clickhouse",
+  "seen": "2026-11-27"
  },
  "nexu-io/openmotion": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "nidhinjs/prompt-master": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "nightly-labs/openbot": {
   "added": "2026-11-07",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "nilbuild/developer-roadmap": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "nilbuild/stick-scene": {
   "added": "2026-11-19",
@@ -4027,7 +4097,7 @@
  "ningzimu/codex-ppt-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "niyouqianma/workbuddy2api-hub": {
   "added": "2026-11-21",
@@ -4047,27 +4117,27 @@
  "nodejs/node": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "nowork-studio/notfair-plugin": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "nuwa-skills/awesome-nuwa": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "obra/superpowers": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "obsidianmd/obsidian-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "oceanpacificpeace/lichii-shader-sync": {
   "added": "2026-11-14",
@@ -4077,57 +4147,57 @@
  "official00shivansh-eng/ultra-iso": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "oh-my-dsh/dsh-plugin-upgrade-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "ohmyzsh/ohmyzsh": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "oil-oil/beautify-github-readme": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "oil-oil/oil-motion": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "oil-oil/oil-ui": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "olive527/steam-library-manager-windows": {
   "added": "2026-11-25",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "oliver-kriska/claude-elixir-phoenix": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "ollama/ollama": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "ombulabs/claude-code_rails-upgrade-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "omonkeyz/xbox-emulator": {
   "added": "2026-11-22",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "oneamendez/crate-ios": {
   "added": "2026-11-17",
@@ -4137,52 +4207,52 @@
  "op7418/guizang-game-skill": {
   "added": "2026-11-14",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "op7418/guizang-product-video-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "op7418/guizang-yingzao-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "open-jarvis/OpenJarvis": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "open-webui/open-webui": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "openai/codex": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "openai/math": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "openai/skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "openbq-org/OpenBB": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "openclaw/openclaw": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "opencoredev/islandcn": {
   "added": "2026-11-14",
@@ -4192,7 +4262,12 @@
  "openfilm/openfilm": {
   "added": "2026-11-14",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
+ },
+ "opensetlabs/openset-llm": {
+  "added": "2026-11-27",
+  "source": "clickhouse",
+  "seen": "2026-11-27"
  },
  "openvinotoolkit/openvino": {
   "added": "2026-11-26",
@@ -4207,12 +4282,12 @@
  "os6/nospeaker": {
   "added": "2026-11-23",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "ossu/computer-science": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "ouncebrew/kaihen": {
   "added": "2026-11-19",
@@ -4222,22 +4297,22 @@
  "owoevan-dev/music-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "paperclipai/paperclip": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "paperless-ngx/paperless-ngx": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "parcadei/Continuous-Claude-v3": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "parthivvinod95-blip/clion-desktop": {
   "added": "2026-11-24",
@@ -4247,17 +4322,17 @@
  "pascalorg/editor": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "patch-gg/pixelfx": {
   "added": "2026-11-09",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "patchy631/ai-engineering-hub": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "paulirish/chrome-capture": {
   "added": "2026-11-14",
@@ -4267,7 +4342,7 @@
  "pbakaus/impeccable": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "peach-mitao/peach": {
   "added": "2026-11-06",
@@ -4277,17 +4352,17 @@
  "peak85-sketch/stardew-valley-mod-manager": {
   "added": "2026-11-25",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "pedrohcgs/claude-code-my-workflow": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "pengchujin/aerial-tv": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "phantomsociallook/auslogics": {
   "added": "2026-11-14",
@@ -4297,32 +4372,32 @@
  "photoprism/photoprism": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "phuryn/pm-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "pierridotite/mobile-agent-testers": {
   "added": "2026-11-23",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "pingcap/tidb": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "pingdotgg/t3code": {
   "added": "2026-11-13",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "pithings/unkernel": {
   "added": "2026-11-19",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "pixl27/ProjectReLink": {
   "added": "2026-11-17",
@@ -4332,27 +4407,27 @@
  "plugin87/ux-ui-agent-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "pookjw/HermesEnabler": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "practical-tutorials/project-based-learning": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "praseesh369/youtube-ai-video-editing-system": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "pravinak1188-design/ashampoo-uninstaller": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "precygtrucqui1981/blender-ai-copilot-lab": {
   "added": "2026-11-14",
@@ -4362,7 +4437,7 @@
  "prekuter/dryforge": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "prusa3d/prusa-connect": {
   "added": "2026-11-21",
@@ -4372,32 +4447,32 @@
  "public-apis/public-apis": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "punkpeye/awesome-mcp-servers": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "purvprajapati2504-design/premiere-pro-video-editor": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
- "qianyiai/kurocat": {
-  "added": "2026-11-24",
-  "source": "seed",
-  "seen": "2026-11-26"
+ "qianyiai/KuroCat": {
+  "added": "2026-11-27",
+  "source": "library",
+  "seen": "2026-11-27"
  },
  "qingjian-team/qingjian": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "qqxpee/antigravity2-cn": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "quer3q/kraken-mount": {
   "added": "2026-11-14",
@@ -4407,12 +4482,12 @@
  "qybaihe/bla": {
   "added": "2026-11-25",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "rafiiiakmall-cpu/aida-64-extreme": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "rahul9350125/photo-commander": {
   "added": "2026-11-24",
@@ -4422,7 +4497,7 @@
  "rasbt/LLMs-from-scratch": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "raygullcrease/axiom-launch-replay": {
   "added": "2026-11-14",
@@ -4432,22 +4507,22 @@
  "rddmwmddr/android-ad-cleaner": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "react/react": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "react/react-native": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "reactive-resume/reactive-resume": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "realcodebear/saltline-fable-5.2": {
   "added": "2026-11-14",
@@ -4457,27 +4532,27 @@
  "rebelytics/one-skill-to-rule-them-all": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "refly-ai/refly": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "rehan-remade/universal-modder": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "remotion-dev/remotion": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "remotion-dev/skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "replit/datacat": {
   "added": "2026-11-20",
@@ -4487,7 +4562,7 @@
  "ripienaar/free-for-dev": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "rivet-dev/open-orange": {
   "added": "2026-11-14",
@@ -4502,22 +4577,22 @@
  "robbietilton/Compositor": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "rockford007/xyplorer-file-manager": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "rohitg00/ai-engineering-from-scratch": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "rohitg00/pro-workflow": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "rolazd/xiaoai-doubao": {
   "added": "2026-11-20",
@@ -4527,7 +4602,7 @@
  "romainsimon/paperasse": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "rosario28enmanuel-cpu/anydesk-remote-desktop": {
   "added": "2026-11-24",
@@ -4537,7 +4612,7 @@
  "rossark0/rossark-motion-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "rtadewald/skills": {
   "added": "2026-11-26",
@@ -4547,12 +4622,12 @@
  "rust-lang/rust": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "rustdesk/rustdesk": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "s1dashu/ip-as-logo-skill": {
   "added": "2026-11-06",
@@ -4572,22 +4647,22 @@
  "samber/cc-skills-golang": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "sansan0/TrendRadar": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "sanyuan0704/sanyuan-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "sarsonj/rodokmen-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "sasobhabha/Gester": {
   "added": "2026-11-14",
@@ -4602,22 +4677,22 @@
  "scenario-labs/skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "scottsturrock/mate-wayland-desktop": {
   "added": "2026-11-19",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "seedds/nxnative": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "sergebulaev/linkedin-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "serveroshq/panel": {
   "added": "2026-11-13",
@@ -4632,12 +4707,12 @@
  "sevenevesai/riso-windowseat": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "seyedehsanhadi/sloptrim": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "sfewer-r7/CVE-2026-123007": {
   "added": "2026-11-21",
@@ -4647,42 +4722,47 @@
  "shadcn-ui/ui": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "shanraisshan/claude-code-best-practice": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "shanraisshan/claude-code-hooks": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "sherlock-project/sherlock": {
   "added": "2026-11-14",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "shihabal3amri/DiPlay": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "shinyobjectz/raea": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "shirudo-dev/shirudo": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
+ },
+ "shogunakatsukiremedy/capri-ai-desktop": {
+  "added": "2026-11-27",
+  "source": "clickhouse",
+  "seen": "2026-11-27"
  },
  "sickn33/agentic-awesome-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "siliconjungle/shapeshift-labs-ink-studio": {
   "added": "2026-11-19",
@@ -4697,27 +4777,27 @@
  "simplexai-labs/linger": {
   "added": "2026-11-14",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "sindresorhus/awesome": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "skills/introduction-to-github": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "skilltraining-project/skill-training": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "slavingia/skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "smoovplay/smoovplay": {
   "added": "2026-11-21",
@@ -4727,22 +4807,22 @@
  "sno-ai/sno-station": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "sno-ai/sno-station-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "sohzm/winedroid": {
   "added": "2026-11-25",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "solv4626/steam-achievement-manager-windows": {
   "added": "2026-11-25",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "sostenesfreitas/ocarina-recomp": {
   "added": "2026-11-13",
@@ -4752,112 +4832,127 @@
  "sous-labs/songe": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "specstoryai/getspecstory": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "sshkeda/minecraft-server-on-orange-cloud": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "stablyai/orca": {
   "added": "2026-11-10",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "staryone/motlab": {
   "added": "2026-11-21",
   "source": "seed",
   "seen": "2026-11-26"
  },
+ "stellarr-studio/kelvaroq": {
+  "added": "2026-11-27",
+  "source": "library",
+  "seen": "2026-11-27"
+ },
  "storytold/artcraft": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "storytold/cadcraft": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "storytold/craft-anything": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "storytold/effectcraft": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "storytold/filmcraft": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "storytold/gridcraft": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "storytold/lightcraft": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "storytold/pdfcraft": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "storytold/photocraft": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "storytold/vectorcraft": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "storytold/wordcraft": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "subsy/skill-cabinet": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
+ },
+ "sunbird-tools/sunbird": {
+  "added": "2026-11-27",
+  "source": "library",
+  "seen": "2026-11-27"
  },
  "sunchaokun/PPT-Design-Skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "supabase/supabase": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
+ },
+ "superdesigndev/treg": {
+  "added": "2026-11-27",
+  "source": "clickhouse",
+  "seen": "2026-11-27"
  },
  "syahiidkamil/Software-Engineer-AI-Agent-Atlas": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "sybil-solutions/inference-optimisation-skill": {
   "added": "2026-11-17",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "sybil-solutions/skill-distill": {
   "added": "2026-11-22",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "taboospecialistblade/ai--manus2.0": {
   "added": "2026-11-15",
@@ -4867,17 +4962,17 @@
  "tamaratran/fast-jev-compaction": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "tamtom/play-console-cli": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "tangency-labs/solidcraft": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "tangerineturtle1/NX2navi": {
   "added": "2026-11-13",
@@ -4887,27 +4982,27 @@
  "tashfeenahmed/freellmapi": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "tech-leads-club/agent-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "teng-lin/notebooklm-py": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "tensorflow/tensorflow": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "thedotmack/claude-mem": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "threerocks/article2media": {
   "added": "2026-11-14",
@@ -4917,17 +5012,17 @@
  "thtbee/nectarlink": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "tidain/YunX-Desktop": {
   "added": "2026-11-17",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "tigerless-labs/autoharness": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "timescale/pg-aiguide": {
   "added": "2026-11-26",
@@ -4942,22 +5037,22 @@
  "titanwings/distilly": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "tmstack/awesome-persona-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "toeverything/AFFiNE": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "togg53192-cmd/jailbreaks": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "topapothecarycanal/ai--manus2.0": {
   "added": "2026-11-15",
@@ -4977,7 +5072,7 @@
  "topoteretes/cognee": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "toppatronweave/GitHub-Copilot-app": {
   "added": "2026-11-15",
@@ -4992,12 +5087,12 @@
  "torvalds/linux": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "toyxyz/toyxyz_RGBMocap": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "trackersnailgrip/GitHub-Copilot-app": {
   "added": "2026-11-15",
@@ -5012,22 +5107,22 @@
  "tradermonty/claude-trading-skills": {
   "added": "2026-11-18",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "trailofbits/skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "travisvn/awesome-claude-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "trekhleb/javascript-algorithms": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "tremorbuffalospire/IPTV_Player_2.0": {
   "added": "2026-11-15",
@@ -5037,97 +5132,97 @@
  "trimstray/test-your-sysadmin-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "trimstray/the-book-of-secret-knowledge": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "tristanbuckmaster/navier-stokes": {
   "added": "2026-11-21",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "trustfuture/simon-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "tt-a1i/archify": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "tudoumashu/ai-memory-skillpack": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "tuzhechen2005/opus-video-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "tw93/Kami": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "tw93/Waza": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "twbs/bootstrap": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "tweak-for-me/impulse": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "tzachbon/smart-ralph": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "ubiquitarianism/leonida": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "ultraworkers/claw-code": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "umbradev315/ffmpeg-video-audio-converter": {
   "added": "2026-11-25",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "unclebob/ub-mode": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "unclecode/crawl4ai": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "unslothai/unsloth": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "upscayl/upscayl": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "usestrix/strix": {
   "added": "2026-11-26",
@@ -5142,57 +5237,57 @@
  "valentderah/totk-pc-recomp": {
   "added": "2026-11-10",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "vectorize-io/hindsight": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "vercel-labs/agent-browser": {
   "added": "2026-11-13",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "vercel-labs/agent-desktop": {
   "added": "2026-11-13",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "vercel-labs/agent-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "vercel-labs/skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "vercel-labs/ui": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "vercel/next.js": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "vinta/awesome-python": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "vinujak/phantom-blade-zero-modifier": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "vinvcn/mattpocock-skills-zh-CN": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "violetkomodolimit/ai--manus2.0": {
   "added": "2026-11-15",
@@ -5202,12 +5297,17 @@
  "virgiliojr94/book-to-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "vuejs/vue": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
+ },
+ "vuyp/gta6-pc-race": {
+  "added": "2026-11-27",
+  "source": "library",
+  "seen": "2026-11-27"
  },
  "vzroslieigry/maxagent": {
   "added": "2026-11-14",
@@ -5217,17 +5317,17 @@
  "w01fb0ss/PiBot": {
   "added": "2026-11-23",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "wangzan101/Mika": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "wanshuiyin/Auto-claude-code-research-in-sleep": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "waw666waw666/RegisterHub": {
   "added": "2026-11-20",
@@ -5237,7 +5337,7 @@
  "we-promise/sure": {
   "added": "2026-11-16",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "weightcashiercupola/Gemini-Config-Checker-": {
   "added": "2026-11-16",
@@ -5252,17 +5352,17 @@
  "wesammustafa/Claude-Code-Quest": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "wheresryan22/anatomy": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "white0dew/XiaohongshuSkills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "wide-trace/open-higgsfield": {
   "added": "2026-11-23",
@@ -5272,7 +5372,7 @@
  "win4r/MuseAI-Skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "wisemeadowlarkspike/Gemini-Config-Checker-": {
   "added": "2026-11-16",
@@ -5282,17 +5382,17 @@
  "wondelai/skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "wshobson/agents": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "wuyoscar/jev-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "wy51ai/easycolab": {
   "added": "2026-11-14",
@@ -5302,17 +5402,17 @@
  "x1xhlol/system-prompts-and-models-of-ai-tools": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "xcl-dev/xcl": {
   "added": "2026-11-25",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "xerj-org/xerj": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "xiaoerofficial021-collab/FlowHMR-Windows": {
   "added": "2026-11-14",
@@ -5322,17 +5422,17 @@
  "xiaoyang111222/cn-math-taxonomy": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "xikhar/papercraft": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "xingkongliang/skills-manager": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "xitu/gold-miner": {
   "added": "2026-11-06",
@@ -5342,17 +5442,17 @@
  "xixu-me/xget": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "yang0/handraw-style": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "yangshun/tech-interview-handbook": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "ybblab/Jiumi": {
   "added": "2026-11-19",
@@ -5367,7 +5467,7 @@
  "yetone/magpie": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "yetone/rewind-for-x": {
   "added": "2026-11-14",
@@ -5377,17 +5477,17 @@
  "yi1108/printfilm": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "yihui-dev/awesome-opus5-5-videos": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "yikart/AiToEarn": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "yjh051108/dsh-routing-suite": {
   "added": "2026-11-06",
@@ -5397,17 +5497,17 @@
  "yjz211/vivid-illustration-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "youssefco1999-hash/aiseesoft-launch-pro": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "yrf15gamin-pixel/ashampoo-winoptimizer-pro": {
   "added": "2026-11-24",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "ysunyang4/Nexus": {
   "added": "2026-11-18",
@@ -5417,52 +5517,52 @@
  "yt-dlp/yt-dlp": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "ytdl-org/youtube-dl": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "ythx-101/live-panel-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "yucezerey/turkish-anti-ai-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "yusufkaraaslan/Skill_Seekers": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "zLanqing/codex-claude-academic-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "zai-org/ZCode": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "zanwei/design-dna": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "zebbern/claude-code-guide": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "zed-industries/gpui": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "zed-industries/zed": {
   "added": "2026-11-13",
@@ -5472,22 +5572,22 @@
  "zenbu-labs/terminal-browser": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "zenstory-ai/drama-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "zenstory-ai/novel-to-game": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "zenstory-ai/oh-story-claudecode": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "zephyr4123/snug": {
   "added": "2026-11-18",
@@ -5497,22 +5597,22 @@
  "zero5122/offline-file-converter-windows": {
   "added": "2026-11-25",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "zhanghao123vip/ai-manju-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "zhayujie/CowAgent": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "zhouxiaoka/autoclip": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "zhu1090093659/dsh-web": {
   "added": "2026-11-06",
@@ -5522,22 +5622,27 @@
  "zhuxian518/mcd-1024-skill": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "zhuyansen/awesome-claude-video-skills": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "zhuyansen/new-term-radar": {
   "added": "2026-11-26",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  },
  "zortos293/Lichii": {
   "added": "2026-11-09",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
+ },
+ "zortos293/XSEmu": {
+  "added": "2026-11-27",
+  "source": "clickhouse",
+  "seen": "2026-11-27"
  },
  "zovulrira1974/blender-ai-copilot-assets": {
   "added": "2026-11-14",
@@ -5547,6 +5652,6 @@
  "zylon-ai/private-gpt": {
   "added": "2026-11-06",
   "source": "seed",
-  "seen": "2026-11-26"
+  "seen": "2026-11-27"
  }
 }
